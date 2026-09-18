@@ -1,0 +1,128 @@
+/* European Dental: motion. Loaded on every page after styles.css.
+
+   The finished page is what styles.css draws; this file only adds how things arrive and change. Every
+   moving rule sits inside prefers-reduced-motion: no-preference, so a visitor who asks for less motion
+   gets the finished page at once (the global reduce block in styles.css also zeroes every duration).
+   Only transform, opacity and stroke-dashoffset animate; verify.py check 18 holds that. */
+
+:root {
+  --t-reveal: 700ms;
+  --t-fade: 900ms;
+  --t-draw: 1200ms;
+  --ease-out: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* ---------- states that are not motion: they apply whatever the preference ---------- */
+.site-header.is-scrolled { box-shadow: 0 8px 28px rgba(8, 54, 95, 0.1); border-bottom-color: transparent; }
+.site-header.is-scrolled .brand__img { transform: scale(0.9); }
+.brand__img { transform-origin: left center; }
+.scroll-sentinel { position: absolute; top: 0; left: 0; width: 1px; height: 24px; pointer-events: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+
+  /* ---------- page transitions (Chromium and recent Safari; others navigate normally) ---------- */
+  @view-transition { navigation: auto; }
+  .site-header { view-transition-name: site-header; }
+  ::view-transition-old(root) { animation: vt-out 180ms var(--ease-out) both; }
+  ::view-transition-new(root) { animation: vt-in 320ms var(--ease-out) both; }
+  @keyframes vt-out { to { opacity: 0; } }
+  @keyframes vt-in { from { opacity: 0; transform: translateY(8px); } }
+
+  /* ---------- header ---------- */
+  .site-header { transition: box-shadow var(--t-ui) var(--ease), border-color var(--t-ui) var(--ease); }
+  .brand__img { transition: transform var(--t-ui) var(--ease-out); }
+
+  /* ---------- entrance: the first heading block rises once fonts are ready, by transform only
+     (a keyframe through opacity 0 can stick on iOS Safari and leave the heading invisible) ---------- */
+  .js:not(.is-entered) .entrance > * { transform: translateY(14px); }
+  .js.is-entered .entrance > * { transition: transform var(--t-reveal) var(--ease-out); }
+  .js.is-entered .entrance > :nth-child(2) { transition-delay: 70ms; }
+  .js.is-entered .entrance > :nth-child(3) { transition-delay: 140ms; }
+  .js.is-entered .entrance > :nth-child(4) { transition-delay: 210ms; }
+  .js.is-entered .entrance > :nth-child(n + 5) { transition-delay: 280ms; }
+
+  /* ---------- reveal: JS adds .reveal only to elements below the fold ---------- */
+  .reveal { opacity: 0; transform: translateY(18px); }
+  .reveal.is-visible {
+    opacity: 1; transform: none;
+    transition: opacity var(--t-reveal) var(--ease-out) var(--d, 0ms), transform var(--t-reveal) var(--ease-out) var(--d, 0ms);
+  }
+
+  /* ---------- the gold swoosh draws itself ---------- */
+  .js .swoosh path { stroke-dasharray: 1; }
+  .js .swoosh:not(.is-drawn) path { stroke-dashoffset: 1; }
+  .js .swoosh.is-drawn path { animation: draw var(--t-draw) var(--ease-out) both; }
+  @keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+
+  /* ---------- scroll-driven parallax, CSS only; the frame clips the enlarged photograph ---------- */
+  @supports (animation-timeline: view()) {
+    .intro__bg img, .contact-hero__bg img, .welcome__photo img {
+      animation: parallax linear both;
+      animation-timeline: view();
+    }
+    @keyframes parallax {
+      from { transform: scale(1.12) translateY(-4%); }
+      to { transform: scale(1.12) translateY(4%); }
+    }
+  }
+
+  /* ---------- mobile drawer: the links follow one another in ---------- */
+  @media (max-width: 860px) {
+    .js .site-nav .nav-menu > li { opacity: 0; transform: translateY(10px); transition: opacity var(--t-ui) var(--ease-out), transform var(--t-ui) var(--ease-out); }
+    .js .nav-open .site-nav .nav-menu > li { opacity: 1; transform: none; }
+    .js .nav-open .site-nav .nav-menu > li:nth-child(2) { transition-delay: 50ms; }
+    .js .nav-open .site-nav .nav-menu > li:nth-child(3) { transition-delay: 100ms; }
+    .js .nav-open .site-nav .nav-menu > li:nth-child(4) { transition-delay: 150ms; }
+  }
+
+  /* ---------- hover and press, only where a pointer can hover ---------- */
+  @media (hover: hover) {
+    .card, .service { transition: transform var(--t-ui) var(--ease-out), box-shadow var(--t-ui) var(--ease-out); }
+    .card:hover, .service:hover { transform: translateY(-4px); box-shadow: var(--shadow-2); }
+    .card__media img, .service__media img, .gallery__stage img { transition: transform 600ms var(--ease-out); }
+    .card:hover .card__media img, .service:hover .service__media img, .gallery__stage:hover img { transform: scale(1.04); }
+  }
+  .btn { transition: background-color var(--t-ui) var(--ease), color var(--t-ui) var(--ease), border-color var(--t-ui) var(--ease), transform var(--t-fast) var(--ease); }
+  .btn:active { transform: scale(0.98); }
+
+  /* ---------- forms ---------- */
+  .form-success.is-shown { transition: opacity 400ms var(--ease-out), display 400ms allow-discrete; }
+  @starting-style { .form-success.is-shown { opacity: 0; } }
+
+  /* ---------- hero slider (home.css holds the states; slider.js drives them) ---------- */
+  .slider.is-ready .slide { transition: opacity var(--t-fade) var(--ease-out), visibility 0s linear var(--t-fade); }
+  .slider.is-ready .slide.is-active { transition: opacity var(--t-fade) var(--ease-out), visibility 0s; }
+  /* the leaving slide keeps its drift through the crossfade (same animation, so it carries on rather
+     than snapping back to its unzoomed frame while still fully visible) */
+  .slider.is-ready .slide:is(.is-active, .is-leaving) img { animation: drift 7000ms var(--ease-out) both; }
+  @keyframes drift { from { transform: scale(1.06); } to { transform: none; } }
+  .slider[data-state="playing"] .slider__progress.is-running,
+  .slider[data-state="paused"] .slider__progress.is-running,
+  .slider[data-state="offscreen"] .slider__progress.is-running,
+  .slider[data-state="hidden"] .slider__progress.is-running { animation: progress var(--slide-ms, 6000ms) linear both; }
+  @keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  /* WCAG 2.2.2: Pause stops ALL of the movement, the drift included, not only the slide changes; hover,
+     offscreen and a hidden tab freeze it too. These come after the shorthands above on purpose: the
+     animation shorthand resets play-state to running, so at equal specificity the later rule must win. */
+  .slider.is-ready:not([data-state="playing"]) .slide img { animation-play-state: paused; }
+  .slider:not([data-state="playing"]) .slider__progress.is-running { animation-play-state: paused; }
+
+  /* ---------- lightbox: the backdrop fades in from the discrete display change ---------- */
+  .lightbox { transition: opacity var(--t-ui) var(--ease-out), display var(--t-ui) allow-discrete; }
+  @starting-style { .lightbox.is-open { opacity: 0; } }
+}
+
+/* Reduced motion: nothing above applies, so the swoosh is simply drawn, slides and gallery photographs
+   swap at once, and the global reduce block in styles.css zeroes any remaining transition. */
+
+/* ?static (main.js sets html.is-static) shows exactly that reduced-motion page whatever the visitor's
+   setting, so the QA hook and the real preference can be compared side by side. */
+.is-static *, .is-static *::before, .is-static *::after { animation: none !important; transition: none !important; }
+:root.is-static, .is-static .site-header { view-transition-name: none; }
+
+/* Print is not a screen: every block prints whether or not it has been scrolled into view yet. */
+@media print {
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .swoosh path { stroke-dashoffset: 0 !important; }
+  .lightbox, .slider__controls, .slider__progress { display: none !important; }
+}

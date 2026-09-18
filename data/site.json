@@ -1,0 +1,67 @@
+{
+  "note": "Every value the owner has not confirmed is a TODO string, never a plausible fake. check-placeholders.mjs --launch fails while any remains. The build reads lang and locale per page from languages[], never from here.",
+  "name": "European Dental",
+  "origin": "TODO-ORIGIN",
+  "productionOrigin": "TODO-DOMAIN",
+  "env": "preview",
+  "noindex": true,
+  "copyrightYear": 2026,
+  "languages": [
+    {
+      "code": "de",
+      "locale": "de_DE",
+      "prefix": "",
+      "name": "Deutsch",
+      "complete": true
+    },
+    {
+      "code": "it",
+      "locale": "it_IT",
+      "prefix": "/it",
+      "name": "Italiano",
+      "complete": true
+    },
+    {
+      "code": "en",
+      "locale": "en_GB",
+      "prefix": "/en",
+      "name": "English",
+      "complete": true
+    }
+  ],
+  "phones": [
+    {
+      "display": "TODO-PHONE-1",
+      "e164": "TODO-PHONE-1"
+    },
+    {
+      "display": "TODO-PHONE-2",
+      "e164": "TODO-PHONE-2"
+    }
+  ],
+  "whatsapp": "TODO-WHATSAPP",
+  "email": "TODO-EMAIL",
+  "web3formsKey": "TODO-WEB3FORMS-KEY",
+  "address": "TODO-ADDRESS",
+  "hours": "TODO-HOURS",
+  "mapUrl": "TODO-MAP-URL",
+  "social": {
+    "facebook": "TODO-FACEBOOK",
+    "instagram": "TODO-INSTAGRAM"
+  },
+  "legal": {
+    "entity": "TODO-LEGAL-ENTITY",
+    "address": "TODO-LEGAL-ADDRESS",
+    "representative": "TODO-REPRESENTATIVE",
+    "registration": "TODO-REGISTRATION",
+    "vat": "TODO-VAT",
+    "retention": "TODO-RETENTION"
+  },
+  "legalReview": {
+    "privacy": "TODO-LEGAL-REVIEW",
+    "imprint": "TODO-LEGAL-REVIEW"
+  },
+  "analytics": {
+    "cfBeacon": null
+  }
+}

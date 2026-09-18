@@ -1,0 +1,95 @@
+{
+  "note": "Images that must never be used or committed: sha256 and a 64-bit difference hash each, so a renamed or re-encoded copy is still caught by _tools/check-images.mjs. Reasons are neutral on purpose; what each one is stays off this public repo.",
+  "images": [
+    {
+      "id": "x1",
+      "reason": "old-logo",
+      "sha256": "71e93bd1c135fba7b2f2a7533ad3af16d010eece796c20e2b074e5becc2c6f68",
+      "dhash": "10083030303220c8"
+    },
+    {
+      "id": "x2",
+      "reason": "old-branding",
+      "sha256": "dc047d8cce3f1bc27d7d85cce4a10922c76ecc0b60e17042e582fbb422f8128f",
+      "dhash": "e38b19393918831b"
+    },
+    {
+      "id": "x3",
+      "reason": "third-party",
+      "sha256": "18e128062f39c3258325094282af2cc892084c4c2d31af83aa56e5cc62b7198a",
+      "dhash": "2d011cbef3c78ee6"
+    },
+    {
+      "id": "x4",
+      "reason": "third-party",
+      "sha256": "a70e6d1502d1c942a95210e0b2b316de16eb18d6b835741e03ffe29c39dd7448",
+      "dhash": "24945bd949db9b9b"
+    },
+    {
+      "id": "x5",
+      "reason": "third-party",
+      "sha256": "89a40d546ef589516f0f59e03b8b8ece0353242f01f5eac0a770256c34952ff2",
+      "dhash": "e666233333391899"
+    },
+    {
+      "id": "x6",
+      "reason": "third-party",
+      "sha256": "1a91883616fbf6a7af552ac2607158e5c8550f694fed5bb41804cea2b8fcdc6c",
+      "dhash": "ccaea888dcdc339c"
+    },
+    {
+      "id": "x7",
+      "reason": "third-party",
+      "sha256": "7905ac245cf36aef92d9667bd38c479e811596ff89b878dcc025692f74b0b67e",
+      "dhash": "3269e1c8f970e4e0"
+    },
+    {
+      "id": "x8",
+      "reason": "old-logo",
+      "sha256": "fc7c3eb6bcd52390d9331f3f8bf796a891b7450d0462de9669ceb11bb38c32fd",
+      "dhash": "10003030303220c8"
+    },
+    {
+      "id": "x9",
+      "reason": "old-branding",
+      "sha256": "d77721737a2bddf47fa4232b7c661c4ec425c270b786fb868051326a67550cca",
+      "dhash": "e38b19393918831b"
+    },
+    {
+      "id": "x10",
+      "reason": "third-party",
+      "sha256": "8217c24d815c607fa9bac4549a895368c19770e8ac8337feecc09ff15bffd7c9",
+      "dhash": "0d093cbefae19fae"
+    },
+    {
+      "id": "x11",
+      "reason": "third-party",
+      "sha256": "12522c2aa9f58923e4c3a0e062718c50dfd0ef698822a14eca9b54e6698d3480",
+      "dhash": "2d011cbef3878ee6"
+    },
+    {
+      "id": "x12",
+      "reason": "third-party",
+      "sha256": "592bb0c8b65d721c87fcfbcebfd10e7e13f8ac0817118c1e782c382934c77ec5",
+      "dhash": "17cdcc8c9e3379de"
+    },
+    {
+      "id": "x13",
+      "reason": "third-party",
+      "sha256": "34120bfc104110ef617ce72adc476185a651ac696c055c939803383f9d858ba1",
+      "dhash": "b493d9d949dbdb9b"
+    },
+    {
+      "id": "x14",
+      "reason": "third-party",
+      "sha256": "ad3f2f48625b3a41736f7c2b98d6d2105f3e03d47492680c9ca8e66c59401bec",
+      "dhash": "e13030511c1c0ccf"
+    },
+    {
+      "id": "x15",
+      "reason": "third-party",
+      "sha256": "2baea90acff87e2edeef132fd928c4a40b7a9932e8aff6cab1931a9b30933f1b",
+      "dhash": "e18c4e0c38e28301"
+    }
+  ]
+}

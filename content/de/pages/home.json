@@ -1,0 +1,44 @@
+{
+  "title": "Zahnmedizin und Ästhetik in Albanien | European Dental",
+  "description": "European Dental vermittelt Ihnen zertifizierte Kliniken in Albanien für Zahnbehandlungen, ästhetische Chirurgie und Haartransplantation, mit Betreuung in jeder Phase.",
+  "h1": "Zahnbehandlungen und ästhetische Eingriffe in Albanien",
+  "statement": "Denn jedes Lächeln erzählt eine Geschichte, und Ihres verdient es, wieder zu strahlen",
+  "subline": "Entdecken Sie hochwertige Zahnmedizin und Ästhetik in Albanien",
+  "ctaBook": "Termin vereinbaren",
+  "ctaCall": "Anrufen",
+  "welcome": {
+    "h2": "Willkommen bei European Dental",
+    "mission": {
+      "h3": "Unsere Mission",
+      "p": [
+        "Wir sind Ihr Berater des Vertrauens. Unsere Agentur arbeitet mit den besten zertifizierten Kliniken in Albanien zusammen, ausgewählt nach Exzellenz, Sicherheit und Ergebnissen.",
+        "Wir helfen Ihnen, die passende Lösung für Ihr Budget, Ihre Sicherheit und die gewünschten Ergebnisse zu finden, und begleiten Sie persönlich in jeder Phase."
+      ]
+    },
+    "offer": {
+      "h3": "Unsere Leistungen",
+      "p": [
+        "Individuelle Behandlungen in ästhetischer Zahnmedizin, ästhetischer Chirurgie und Haartransplantation. Jeder Eingriff wird so geplant, dass er Ihre Vorzüge betont und Ihre natürliche Einzigartigkeit bewahrt.",
+        "Denn wahre Schönheit verändert nicht, wer Sie sind: Sie bringt es zum Vorschein."
+      ]
+    }
+  },
+  "services": {
+    "h2": "Unsere Leistungen",
+    "lead": "Qualität und Sorgfalt für Ihre Schönheit",
+    "cards": {
+      "dental": { "title": "Zahnbehandlungen", "text": "Veneers, Smile-Makeover, Zahnimplantate, professionelles Bleaching, moderne Kieferorthopädie." },
+      "aesthetic": { "title": "Ästhetische Chirurgie", "text": "Ästhetische und funktionelle Rhinoplastik, Septumplastik, Otoplastik." },
+      "hair": { "title": "Haartransplantation", "text": "Wir bieten moderne Techniken der Haartransplantation, natürliche Ergebnisse und umfassende Betreuung." }
+    }
+  },
+  "gallery": {
+    "h2": "Galerie",
+    "lead": "Impressionen"
+  },
+  "quote": {
+    "h2": "Kostenvoranschlag anfordern",
+    "lead": "Fordern Sie einen kostenlosen und unverbindlichen Kostenvoranschlag an.",
+    "subject": "Anfrage Kostenvoranschlag über die Website (Deutsch)"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "note": "Photographs we did not take and the old site did not supply. Each is named on the Impressum (Bildnachweise) in every language. Written by hand when a stock photo is chosen; the build fails if a rendered stock image has no entry here.",
+  "images": [
+    {
+      "slug": "hair-graft-preparation",
+      "title": "Close-up of hands of a doctor wearing gloves",
+      "author": "Muhammad Khawar Nazir",
+      "author_url": "https://www.pexels.com/@drmkhawarnazir/",
+      "source_url": "https://www.pexels.com/photo/close-up-of-hands-of-a-doctor-wearing-gloves-27138339/",
+      "licence": "Pexels License",
+      "licence_url": "https://www.pexels.com/license/",
+      "modifications": "resized and cropped",
+      "retrieved": "2026-09-18",
+      "original": { "width": 4000, "height": 2252 }
+    }
+  ]
+}

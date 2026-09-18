@@ -1,0 +1,52 @@
+{
+  "title": "Dental and cosmetic treatment in Albania | European Dental",
+  "description": "European Dental connects you with certified clinics in Albania for dental treatment, aesthetic surgery and hair transplants, with support at every step.",
+  "h1": "Dental and cosmetic treatment in Albania",
+  "statement": "Because every smile tells a story, and yours deserves to shine again",
+  "subline": "Discover premium dental and cosmetic care in Albania",
+  "ctaBook": "Book an appointment",
+  "ctaCall": "Call us",
+  "welcome": {
+    "h2": "Welcome to European Dental",
+    "mission": {
+      "p": [
+        "We are your trusted adviser. Our agency works with the best certified clinics in Albania, selected for excellence, safety and results.",
+        "We help clients choose the right solution for their budget, their safety and the results they want, with personal support at every stage."
+      ]
+    },
+    "offer": {
+      "h3": "Our treatments",
+      "p": [
+        "Personalised treatment in cosmetic dentistry, aesthetic surgery and hair transplantation. Every procedure is planned to bring out the best in you while respecting what makes you unique."
+      ]
+    }
+  },
+  "services": {
+    "h2": "Our services",
+    "lead": "Quality care for your beauty",
+    "cards": {
+      "dental": {
+        "title": "Dental treatment",
+        "text": "Veneers, smile makeovers, dental implants, professional whitening, modern orthodontics."
+      },
+      "aesthetic": {
+        "title": "Aesthetic surgery",
+        "text": "Cosmetic and functional rhinoplasty, septoplasty, otoplasty."
+      },
+      "hair": {
+        "title": "Hair transplant",
+        "text": "We offer advanced hair transplant techniques, natural results and complete support."
+      }
+    }
+  },
+  "gallery": {
+    "h2": "Gallery",
+    "lead": "Explore our transformations",
+    "extra": "x"
+  },
+  "quote": {
+    "h2": "Request a quote",
+    "lead": "",
+    "subject": "Quote request from the website (English)"
+  }
+}

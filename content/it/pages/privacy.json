@@ -1,0 +1,14 @@
+{
+  "title": "Informativa sulla privacy | European Dental",
+  "description": "Come European Dental tratta i dati che invii tramite questo sito: quali dati raccogliamo, perché, chi li riceve e quali diritti hai.",
+  "h1": "Informativa sulla privacy",
+  "lead": "Come trattiamo i dati che ci invii tramite questo sito.",
+  "sections": [
+    { "h": "Titolare del trattamento", "p": ["{entity}, {address}. Email: {email}."] },
+    { "h": "Quali dati raccogliamo", "p": ["Solo ciò che scrivi in un modulo: nome, numero di telefono, indirizzo email e il testo del messaggio.", "Questo sito non imposta cookie e non usa strumenti di analisi o di tracciamento."] },
+    { "h": "Perché li usiamo", "p": ["Per rispondere alla tua richiesta e preparare un preventivo. La base giuridica è la tua richiesta e il tuo consenso (art. 6, par. 1, lett. a e b del GDPR).", "Se il messaggio contiene informazioni sulla tua salute, le usiamo solo per rispondere alla richiesta, sulla base del tuo consenso esplicito (art. 9, par. 2, lett. a del GDPR)."] },
+    { "h": "Chi riceve i dati", "p": ["I moduli sono inviati tramite Web3Forms, che inoltra il messaggio al nostro indirizzo email. Il sito è ospitato da Cloudflare.", "I link WhatsApp aprono WhatsApp, che tratta i tuoi dati secondo la propria informativa."] },
+    { "h": "Per quanto tempo li conserviamo", "p": ["Conserviamo una richiesta per il tempo necessario a rispondere e a gestire le cure eventualmente organizzate. {retention}"] },
+    { "h": "I tuoi diritti", "p": ["Puoi chiedere l'accesso ai tuoi dati, la rettifica o la cancellazione, la limitazione del trattamento e una copia da portare altrove, e puoi opporti al trattamento. Puoi revocare il consenso in qualsiasi momento.", "Puoi anche presentare reclamo a un'autorità di controllo per la protezione dei dati."] }
+  ]
+}

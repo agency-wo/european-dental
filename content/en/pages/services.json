@@ -1,0 +1,15 @@
+{
+  "title": "Dental and aesthetic services in Albania | European Dental",
+  "description": "Dental treatment, aesthetic surgery and hair transplants: the care we arrange with certified clinics in Albania, from the first question to aftercare.",
+  "h1": "Services",
+  "lead": "Quality and care for your needs",
+  "cards": {
+    "dental": { "title": "Dental treatment", "text": "Restorative dentistry, modern orthodontics, cosmetic dentistry, general dentistry." },
+    "aesthetic": { "title": "Aesthetic surgery", "text": "Cosmetic and functional rhinoplasty, septoplasty (correcting a deviated nasal septum), otoplasty (correcting protruding or asymmetric ears)." },
+    "hair": { "title": "Hair transplant", "text": "Advanced techniques: FUE (Follicular Unit Extraction) and DHI (Direct Hair Implantation). Complementary treatments and post-operative care." }
+  },
+  "contact": {
+    "h2": "Contact us",
+    "subject": "Request from the services page (English)"
+  }
+}

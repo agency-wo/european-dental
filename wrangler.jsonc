@@ -1,0 +1,13 @@
+// Workers Builds reads this file on every push to main.
+// Only ./site is served. Tooling, sources and data never are.
+// Deploys run only in Workers Builds, never from a local wrangler.
+{
+  "name": "european-dental",
+  "compatibility_date": "2026-09-18",
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}

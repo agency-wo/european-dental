@@ -1,0 +1,15 @@
+{
+  "title": "Contatti | European Dental",
+  "description": "Scrivici per un preventivo o una domanda sulle cure dentali ed estetiche in Albania. Ti risponderemo entro 24 ore.",
+  "h1": "Contattaci",
+  "lead": "Compila i campi e scrivi la tua richiesta. Ti risponderemo entro 24 ore. Grazie!",
+  "formLabel": "Modulo di contatto",
+  "subject": "Richiesta dalla pagina contatti (italiano)",
+  "location": {
+    "h2": "Dove siamo",
+    "lead": "Vieni a trovarci",
+    "address": "Indirizzo",
+    "hours": "Orari",
+    "map": "Apri la mappa"
+  }
+}

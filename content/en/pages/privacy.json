@@ -1,0 +1,14 @@
+{
+  "title": "Privacy notice | European Dental",
+  "description": "How European Dental handles the details you send through this website: what is collected, why, who receives it and the rights you have.",
+  "h1": "Privacy notice",
+  "lead": "How we handle the details you send us through this website.",
+  "sections": [
+    { "h": "Who is responsible", "p": ["{entity}, {address}. Email: {email}."] },
+    { "h": "What we collect", "p": ["Only what you type into a form: your name, phone number, email address and the text of your message.", "This website sets no cookies and uses no analytics or tracking tools."] },
+    { "h": "Why we use it", "p": ["To answer your request and prepare a quote. The legal basis is your request and your consent (GDPR Article 6(1)(a) and (b)).", "If your message contains information about your health, we use it only to answer your request, on the basis of your explicit consent (GDPR Article 9(2)(a))."] },
+    { "h": "Who receives it", "p": ["Forms are delivered by Web3Forms, which forwards the message to our email address. The website is hosted by Cloudflare.", "WhatsApp links open WhatsApp, which handles your data under its own privacy notice."] },
+    { "h": "How long we keep it", "p": ["We keep a request for as long as we need to answer it and to handle any treatment arranged as a result. {retention}"] },
+    { "h": "Your rights", "p": ["You can ask for access to your data, its correction or deletion, a restriction of its use, and a copy to take elsewhere, and you can object to its use. You can withdraw your consent at any time.", "You can also complain to a data protection authority."] }
+  ]
+}

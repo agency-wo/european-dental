@@ -1,0 +1,21 @@
+{
+  "title": "Note legali | European Dental",
+  "description": "Chi gestisce il sito European Dental: il fornitore, il rappresentante, i contatti, i dati di registrazione e i crediti delle fotografie utilizzate.",
+  "h1": "Note legali",
+  "lead": "Informazioni sul fornitore di questo sito.",
+  "rows": {
+    "provider": "Fornitore",
+    "representative": "Rappresentato da",
+    "contact": "Contatti",
+    "registration": "Registrazione",
+    "vat": "Partita IVA"
+  },
+  "activity": {
+    "h": "Cosa facciamo",
+    "p": "European Dental è un'agenzia che mette in contatto i pazienti con cliniche in Albania. Le cure sono prestate dalle cliniche partner."
+  },
+  "credits": {
+    "h": "Crediti fotografici",
+    "fonts": "Caratteri: Marcellus e Mulish, entrambi con licenza SIL Open Font License 1.1."
+  }
+}

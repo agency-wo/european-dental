@@ -1,0 +1,14 @@
+{
+  "title": "Datenschutzerklärung | European Dental",
+  "description": "Wie European Dental mit den Angaben umgeht, die Sie über diese Website senden: welche Daten, zu welchem Zweck, wer sie erhält und welche Rechte Sie haben.",
+  "h1": "Datenschutzerklärung",
+  "lead": "Wie wir mit den Angaben umgehen, die Sie uns über diese Website senden.",
+  "sections": [
+    { "h": "Verantwortlicher", "p": ["{entity}, {address}. E-Mail: {email}."] },
+    { "h": "Welche Daten wir erheben", "p": ["Nur das, was Sie in ein Formular eingeben: Name, Telefonnummer, E-Mail-Adresse und den Text Ihrer Nachricht.", "Diese Website setzt keine Cookies und verwendet keine Analyse- oder Tracking-Werkzeuge."] },
+    { "h": "Wozu wir sie verwenden", "p": ["Um Ihre Anfrage zu beantworten und einen Kostenvoranschlag zu erstellen. Rechtsgrundlage sind Ihre Anfrage und Ihre Einwilligung (Art. 6 Abs. 1 lit. a und b DSGVO).", "Enthält Ihre Nachricht Angaben zu Ihrer Gesundheit, verwenden wir sie nur zur Beantwortung Ihrer Anfrage, auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 9 Abs. 2 lit. a DSGVO)."] },
+    { "h": "Wer die Daten erhält", "p": ["Formulare werden über Web3Forms zugestellt, das die Nachricht an unsere E-Mail-Adresse weiterleitet. Die Website wird von Cloudflare gehostet.", "WhatsApp-Links öffnen WhatsApp, das Ihre Daten nach seiner eigenen Datenschutzerklärung verarbeitet."] },
+    { "h": "Wie lange wir sie speichern", "p": ["Wir speichern eine Anfrage so lange, wie es für die Antwort und für die Abwicklung einer daraus vereinbarten Behandlung nötig ist. {retention}"] },
+    { "h": "Ihre Rechte", "p": ["Sie können Auskunft über Ihre Daten verlangen, ihre Berichtigung oder Löschung, die Einschränkung der Verarbeitung und eine Kopie zur Übertragung, und Sie können der Verarbeitung widersprechen. Ihre Einwilligung können Sie jederzeit widerrufen.", "Sie können sich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren."] }
+  ]
+}

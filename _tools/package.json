@@ -1,0 +1,12 @@
+{
+  "name": "european-dental-site-tools",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Build, image and QA tooling for the European Dental website. Never deployed. The build itself (build.mjs) needs none of these.",
+  "dependencies": {
+    "playwright-core": "^1.50.0",
+    "potrace": "^2.1.8",
+    "sharp": "^0.35.4"
+  }
+}

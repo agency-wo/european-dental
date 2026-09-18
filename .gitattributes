@@ -1,0 +1,17 @@
+# Line endings are part of this build's output, so git must not be free to change them.
+#
+# _tools/build.mjs writes a cache-busting hash of each stylesheet and script into every page that loads
+# it (assets/css/styles.css?v=8bd623f3). The hash is taken over the file's BYTES ON DISK, so a file that
+# git checks out with CRLF hashes differently from the same file with LF, and the pages that reference it
+# would differ between this machine, CI and Cloudflare's build.
+* text=auto eol=lf
+
+*.avif binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.ico binary
+*.woff2 binary
+*.pdf binary
+*.mp4 binary

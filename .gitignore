@@ -1,0 +1,49 @@
+# This repository is PUBLIC. Everything below stays on this machine.
+
+# Old-site downloads (including the excluded images), research, and the owner packet
+# (rights table, claims register, legal flags, launch checklist).
+_source/
+_research/
+_owner/
+
+# Private build notes (plan, decisions, session log) and the list of names the leak gate blocks.
+_notes/
+
+# Loose files dropped into the project folder (downloads, screenshots) are never committed. Images that
+# ship live in originals/, assets/ or site/.
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/*.gif
+/*.avif
+
+# Tooling output and caches.
+_tools/node_modules/
+_tools/shots/
+_tools/fonts-src/
+_tools/*.ttf
+_build/
+_dist/
+
+# The i18n dry run writes a throwaway pseudo language and a copy of its pages, then deletes them.
+i18n/xx.json
+content/xx/
+xx-dry/
+
+# Python bytecode carries the local path of whoever ran the tool.
+__pycache__/
+*.pyc
+
+# Stray installs and Windows clutter.
+node_modules/
+desktop.ini
+Thumbs.db
+
+# Deploy tooling state. wrangler writes an account cache into whatever folder it runs in, and keeps
+# local secrets in .dev.vars. wrangler.jsonc itself IS committed: Workers Builds reads it, and without
+# it Cloudflare's setup bot would serve the whole repository root.
+.wrangler/
+wrangler.toml
+.dev.vars*
+.env*

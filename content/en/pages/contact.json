@@ -1,0 +1,15 @@
+{
+  "title": "Contact us | European Dental",
+  "description": "Write to us for a quote or a question about dental and aesthetic treatment in Albania. We reply within 24 hours.",
+  "h1": "Contact us",
+  "lead": "Fill in the fields and write your request. We will reply within 24 hours. Thank you!",
+  "formLabel": "Contact form",
+  "subject": "Request from the contact page (English)",
+  "location": {
+    "h2": "Where we are",
+    "lead": "Come and visit us",
+    "address": "Address",
+    "hours": "Opening hours",
+    "map": "Open the map"
+  }
+}

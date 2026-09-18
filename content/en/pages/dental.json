@@ -1,0 +1,116 @@
+{
+  "title": "Dental treatment in Albania | European Dental",
+  "description": "Restorative dentistry, modern orthodontics, cosmetic and general dentistry in Albania: implants, crowns, clear aligners and whitening.",
+  "h1": "Dental treatment",
+  "intro": {
+    "h2": "Services",
+    "p": [
+      "The beauty of a smile comes from bringing together advanced technology, clinical experience and an eye for aesthetics.",
+      "We work with highly qualified professionals to offer you complete dental care that restores, improves and protects your dental health, with results you can feel and see every day."
+    ]
+  },
+  "restorative": {
+    "h2": "Restorative dentistry",
+    "p": [
+      "Regain the full function and natural look of your teeth with tailored solutions:"
+    ],
+    "items": [
+      "Dental bridges and crowns: they restore the harmony of your smile with strong, natural-looking materials.",
+      "Dental implants: permanent replacements for missing teeth, stable and indistinguishable from natural teeth.",
+      "Removable or implant-supported dentures: comfort, stability and beauty for every need.",
+      "Fixed full arch on implants: a complete transformation of your smile, safely and with immediate results.",
+      "Single tooth replacement: a targeted solution that restores balance and appearance."
+    ],
+    "after": [
+      "Every restoration is designed with digital precision and craftsmanship, to give you a smile that lasts."
+    ]
+  },
+  "orthodontics": {
+    "h2": "Modern orthodontics",
+    "p": [
+      "A beautiful smile is also a straight, healthy smile.",
+      "We offer personalised orthodontic treatment for adults and young people:"
+    ],
+    "items": [
+      "Traditional braces, discreet and effective.",
+      "Clear aligners, the invisible way to straighten your teeth with freedom and comfort."
+    ],
+    "after": [
+      "Technology, aesthetics and practicality come together to create a perfectly harmonious smile, with no compromises."
+    ]
+  },
+  "cosmetic": {
+    "h2": "Cosmetic dentistry",
+    "p": [
+      "Your image starts with your smile.",
+      "With our cosmetic treatments, you can regain the brightness, symmetry and confidence you deserve:"
+    ],
+    "items": [
+      "Professional whitening for a whiter, brighter smile, in complete safety.",
+      "Smile makeover, to redesign proportions and colours and bring out what makes you unique."
+    ],
+    "after": [
+      "Every smile is a work of art, and our job is to make it memorable."
+    ]
+  },
+  "general": {
+    "h2": "General dentistry",
+    "p": [
+      "A healthy smile starts with a well-cared-for mouth.",
+      "We handle the prevention and treatment of the most common dental conditions:"
+    ],
+    "items": [
+      "Dental fillings with the latest aesthetic materials.",
+      "Extractions and wisdom tooth removal, in complete safety.",
+      "Root canal treatment with microscopic precision.",
+      "Conscious sedation, for anyone who wants to go through treatment without anxiety or fear."
+    ],
+    "after": [
+      "Here technology meets empathy: our aim is to make you feel at ease, always."
+    ]
+  },
+  "closing": {
+    "h2": "The perfect smile comes from the perfect journey.",
+    "p": [
+      "Every treatment is part of a journey built around you:"
+    ],
+    "items": [
+      "accurate diagnosis",
+      "digital smile design",
+      "personalised support before, during and after treatment"
+    ],
+    "after": [
+      "Because a smile is not only about teeth.",
+      "It is the signature of your happiness."
+    ]
+  },
+  "testimonials": {
+    "h2": "Testimonials",
+    "quotes": [
+      {
+        "title": "“Finally I smile without thinking about it!”",
+        "text": "For years I had put off looking after my teeth, out of fear and a lack of confidence. Here I found a team that listened to me, reassured me and guided me step by step. The implants are perfect and natural, and my smile… has never been so real!",
+        "name": "Maria G., 54"
+      },
+      {
+        "title": "“Extraordinary professionals, flawless results.”",
+        "text": "I put myself in their hands for a full-mouth rehabilitation with an implant-supported bridge. Everything was handled with precision and care, from the treatment plan to the final smile. You can see the difference… and feel it every day!",
+        "name": "Alessandro R., 47"
+      },
+      {
+        "title": "“They gave me back the confidence to smile.”",
+        "text": "After years of dental problems and trying a thousand solutions that never worked, I found real professionalism here. The implants are perfect, the result is natural and I can finally smile without embarrassment. It is much more than a treatment: it is a personal rebirth.",
+        "name": "Marco L., 52"
+      },
+      {
+        "title": "“The fear is gone, the smile is back.”",
+        "text": "I have always been anxious about going to the dentist, but here I found people who really understand. With conscious sedation everything was simple and painless. Today I laugh, talk and live with a freedom I had forgotten.",
+        "name": "Davide R., 39"
+      }
+    ]
+  },
+  "form": {
+    "h2": "Contact us",
+    "subject": "Request from the dental treatment page (English)"
+  }
+}

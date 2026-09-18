@@ -1,0 +1,21 @@
+{
+  "title": "Impressum | European Dental",
+  "description": "Wer die Website von European Dental betreibt: Anbieter, Vertretung, Kontakt, Registerangaben sowie die Nachweise der verwendeten Fotos.",
+  "h1": "Impressum",
+  "lead": "Angaben zum Anbieter dieser Website.",
+  "rows": {
+    "provider": "Anbieter",
+    "representative": "Vertreten durch",
+    "contact": "Kontakt",
+    "registration": "Registereintrag",
+    "vat": "Umsatzsteuer-Identifikationsnummer"
+  },
+  "activity": {
+    "h": "Was wir tun",
+    "p": "European Dental ist eine Agentur, die Patientinnen und Patienten an Kliniken in Albanien vermittelt. Die Behandlungen erbringen die Partnerkliniken."
+  },
+  "credits": {
+    "h": "Bildnachweise",
+    "fonts": "Schriften: Marcellus und Mulish, beide unter der SIL Open Font License 1.1."
+  }
+}

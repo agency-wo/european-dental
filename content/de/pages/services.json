@@ -1,0 +1,15 @@
+{
+  "title": "Zahnmedizin und Ästhetik: Leistungen | European Dental",
+  "description": "Zahnbehandlungen, ästhetische Chirurgie und Haartransplantation: die Behandlungen, die wir mit zertifizierten Kliniken in Albanien organisieren, bis zur Nachsorge.",
+  "h1": "Leistungen",
+  "lead": "Qualität und Sorgfalt für Ihre Bedürfnisse",
+  "cards": {
+    "dental": { "title": "Zahnbehandlungen", "text": "Restaurative Zahnheilkunde, moderne Kieferorthopädie, ästhetische Zahnheilkunde, allgemeine Zahnheilkunde." },
+    "aesthetic": { "title": "Ästhetische Chirurgie", "text": "Ästhetische und funktionelle Rhinoplastik, Septumplastik (Korrektur einer verkrümmten Nasenscheidewand), Otoplastik (Korrektur abstehender oder asymmetrischer Ohren)." },
+    "hair": { "title": "Haartransplantation", "text": "Moderne Techniken: FUE (Follicular Unit Extraction) und DHI (Direct Hair Implantation). Ergänzende Behandlungen und Nachsorge." }
+  },
+  "contact": {
+    "h2": "Kontakt",
+    "subject": "Anfrage von der Seite Leistungen (Deutsch)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Legal notice | European Dental",
+  "description": "Who runs the European Dental website: the provider, its representative, contact details, registration and the credits for the photographs used.",
+  "h1": "Legal notice",
+  "lead": "Information about the provider of this website.",
+  "rows": {
+    "provider": "Provider",
+    "representative": "Represented by",
+    "contact": "Contact",
+    "registration": "Registration",
+    "vat": "VAT number"
+  },
+  "activity": {
+    "h": "What we do",
+    "p": "European Dental is an agency that connects patients with clinics in Albania. Treatment is provided by the partner clinics."
+  },
+  "credits": {
+    "h": "Photo credits",
+    "fonts": "Typefaces: Marcellus and Mulish, both under the SIL Open Font License 1.1."
+  }
+}

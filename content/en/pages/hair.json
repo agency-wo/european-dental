@@ -1,0 +1,131 @@
+{
+  "title": "Hair transplant in Albania | European Dental",
+  "description": "Hair transplants in Albania with FUE and DHI techniques: digital planning, complementary treatments and post-operative care, from consultation to check-ups.",
+  "h1": "Hair transplant",
+  "intro": {
+    "h2": "Services",
+    "p": [
+      "The rebirth of self-esteem. Every hair is a promise of confidence regained.",
+      "Hair loss can change the way you see yourself, but it does not have to change who you are.",
+      "In our specialist centres in Albania, hair transplant surgery is a medical art based on precision, technology and a human touch.",
+      "We work with internationally renowned surgeons, experts in the latest FUE and DHI techniques, to deliver natural, permanent and personalised results.",
+      "Our goal is not only to give you your hair back, but to restore your confidence, your freshness and the freedom to live without worries."
+    ]
+  },
+  "fue": {
+    "h2": "Advanced techniques: FUE and DHI",
+    "h3": "FUE (Follicular Unit Extraction)",
+    "p": [
+      "Today, the FUE technique is the most advanced standard in hair transplantation.",
+      "It is based on extracting individual follicular units (groups of 1-4 hairs) from the donor area, usually at the back of the head, and grafting them precisely into thinning or bald areas.",
+      "Main advantages:"
+    ],
+    "items": [
+      "No visible scarring",
+      "Quick recovery (3-5 days)",
+      "A natural, even result",
+      "Suitable for men and women"
+    ],
+    "after": [
+      "Every procedure is planned with digital simulation and dermoscopic analysis, to set the perfect density, direction and implant angle, creating a result that is aesthetically indistinguishable from natural hair."
+    ]
+  },
+  "dhi": {
+    "h3": "DHI (Direct Hair Implantation)",
+    "p": [
+      "DHI (Direct Hair Implantation) is the most modern evolution of FUE hair transplantation.",
+      "After extraction, the follicles are implanted directly, without first creating channels or incisions, using a special instrument called the Choi Implanter Pen.",
+      "DHI advantages:"
+    ],
+    "items": [
+      "Greater density per cm²",
+      "Full control over the implant angle",
+      "Even faster recovery",
+      "Minimal trauma to the skin",
+      "No full shave needed"
+    ],
+    "after": [
+      "It is the ideal solution for anyone who wants a natural, high-precision result with a shorter recovery time."
+    ]
+  },
+  "aftercare": {
+    "h2": "Complementary treatments and post-operative care",
+    "h3": "A successful transplant does not end in the operating theatre.",
+    "p": [
+      "We take care of you before, during and after the procedure, with a medical and human approach that makes all the difference.",
+      "Included in our complete packages:"
+    ],
+    "items": [
+      "Analysis and personal consultation",
+      "Travel, accommodation and local support",
+      "PRP (platelet-rich plasma) treatment to stimulate regrowth",
+      "Post-operative check-ups and ongoing support",
+      "Professional scalp care products"
+    ],
+    "after": [
+      "The result is natural, gradual regrowth, with strong, healthy and permanent hair."
+    ]
+  },
+  "who": {
+    "h2": "Who is it for?",
+    "h3": "A hair transplant is suitable for:",
+    "p": [],
+    "items": [
+      "Men and women with androgenetic alopecia (hereditary baldness)",
+      "Localised or general thinning",
+      "Post-surgical or traumatic scars",
+      "Patients who have already had a transplant and want to improve the result"
+    ],
+    "after": [
+      "Every case is unique: our team draws up a tailored treatment plan based on trichological analysis, lifestyle and aesthetic expectations."
+    ]
+  },
+  "why": {
+    "h2": "Why choose us",
+    "items": [
+      "Surgeons specialised in hair transplants with more than 10 years of experience",
+      "The latest FUE and DHI techniques",
+      "Natural, dense and permanent results",
+      "Complete support before and after the procedure",
+      "“All-Inclusive” packages with flight, hotel and a free consultation"
+    ],
+    "h3": "A new beginning, a new you",
+    "p": [
+      "It is not just a hair transplant. It is a confidence transplant.",
+      "Start to like yourself again, to recognise yourself and to feel fully yourself."
+    ],
+    "cta": "Book your free consultation now",
+    "after": [
+      "Discover the solution tailored to you and look at yourself with pride again."
+    ]
+  },
+  "testimonials": {
+    "h2": "Testimonials",
+    "quotes": [
+      {
+        "text": "“I had lost confidence in myself. Every morning, looking in the mirror was a small blow to the heart. Then I decided to have the transplant in Albania with the help of this agency, and everything changed. The result? 100% natural. Nobody noticed the transplant, but everyone tells me I look younger and more confident. It was like going back ten years.”",
+        "name": "Luca R., 42, Milan"
+      },
+      {
+        "text": "“I had looked into it in Italy, but the costs were sky-high. Through them I found a clinic in Albania with exceptional surgeons and flawless support. They took care of everything, from travel to accommodation. Today, after 8 months, I have real, strong hair of my own. If I had to do it again, I would do it a thousand times over.”",
+        "name": "Davide S., 35, Bologna"
+      },
+      {
+        "text": "“I was afraid, I admit it. I thought a transplant would be something painful and artificial. Instead it was a calm, almost relaxing experience. The whole team was kind, precise and professional. Now I run my hand through my hair and I still can’t believe it. It is a feeling I had forgotten.”",
+        "name": "Marco P., 29, Rome"
+      },
+      {
+        "text": "“I didn’t do it out of vanity, but to feel good about myself again. After the transplant I started smiling, going out and living again. My self-esteem was reborn along with my hair. I really advise anyone who is thinking about it: don’t wait. It was the best investment of my life.”",
+        "name": "Giovanni F., 50, Florence"
+      }
+    ]
+  },
+  "videos": {
+    "h2": "Video testimonials",
+    "lead": "Our patients",
+    "labels": [
+      "Video testimonial 1",
+      "Video testimonial 2"
+    ]
+  }
+}

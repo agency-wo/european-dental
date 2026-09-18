@@ -1,0 +1,697 @@
+{
+  "note": "Every image the site may use. src is the committed master; variants name the crops process-images.mjs renders (their sizes are defined there). Alt text lives in content/<lang>/pages/media.json keyed by slug; rights and risk notes stay in the ignored _owner/ folder.",
+  "images": [
+    {
+      "slug": "dental-chair-blue-room-render",
+      "src": "originals/old-site/3-m2wqvwr0mlu184r2.png",
+      "origin": "old-site",
+      "width": 1920,
+      "height": 1080,
+      "palette": false,
+      "focal": [
+        0.52,
+        0.58
+      ],
+      "variants": [
+        "hero",
+        "hero-m",
+        "card",
+        "full",
+        "thumb"
+      ]
+    },
+    {
+      "slug": "gloved-hand-camera-teeth-photo",
+      "src": "originals/old-site/a1de4c575f6207d22f53eec9f4ec2831-avlxqb8awdhxbmjv.png",
+      "origin": "old-site",
+      "width": 736,
+      "height": 830,
+      "palette": true,
+      "focal": [
+        0.38,
+        0.5
+      ],
+      "variants": []
+    },
+    {
+      "slug": "braces-patient-syringe-close-up",
+      "src": "originals/old-site/5-yg24d2nv4vfkj3xx.png",
+      "origin": "old-site",
+      "width": 1920,
+      "height": 1080,
+      "palette": false,
+      "focal": [
+        0.52,
+        0.35
+      ],
+      "variants": [
+        "hero",
+        "hero-m"
+      ]
+    },
+    {
+      "slug": "nurse-blood-pressure-older-man",
+      "src": "originals/old-site/whatsapp-43-am-mnl4ae7jb4uqqklj.png",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": true,
+      "focal": [
+        0.5,
+        0.5
+      ],
+      "variants": [
+        "hero",
+        "hero-m",
+        "thumb",
+        "full"
+      ]
+    },
+    {
+      "slug": "clinic-corridor-numbered-rooms",
+      "src": "originals/old-site/d41-m5k8njrjwqiqlnr0.jpg",
+      "origin": "old-site",
+      "width": 1314,
+      "height": 987,
+      "palette": false,
+      "focal": [
+        0.62,
+        0.5
+      ],
+      "variants": [
+        "wide",
+        "bg"
+      ]
+    },
+    {
+      "slug": "face-surgical-markings-gloved-hands",
+      "src": "originals/old-site/chirurgia-estetica-a3qlzkzr5mfgpewn.jpg",
+      "origin": "old-site",
+      "width": 830,
+      "height": 483,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.42
+      ],
+      "variants": [
+        "card",
+        "banner"
+      ]
+    },
+    {
+      "slug": "smile-before-after-full-arch",
+      "src": "originals/old-site/img_4139-mepg8xon1dhx06xx.jpg",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.6
+      ],
+      "variants": [
+        "thumb",
+        "full"
+      ]
+    },
+    {
+      "slug": "dentist-adjusting-lamp-seated-patient",
+      "src": "originals/old-site/whatsapp-34-am-1-mv0pvqkgbbt5xnak.png",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": true,
+      "focal": [
+        0.45,
+        0.45
+      ],
+      "variants": [
+        "bg",
+        "thumb",
+        "full"
+      ]
+    },
+    {
+      "slug": "braces-patient-instrument-close-up-tall",
+      "src": "originals/old-site/whatsapp31-am-1-d95zbpm491skjgok.png",
+      "origin": "old-site",
+      "width": 1332,
+      "height": 1000,
+      "palette": false,
+      "focal": [
+        0.52,
+        0.4
+      ],
+      "variants": [
+        "thumb",
+        "full"
+      ]
+    },
+    {
+      "slug": "clinician-examining-woman-lower-face",
+      "src": "originals/old-site/whatsapp-48-34-am-azgm60j3bvtjplwn.png",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": true,
+      "focal": [
+        0.55,
+        0.62
+      ],
+      "variants": [
+        "thumb",
+        "full"
+      ]
+    },
+    {
+      "slug": "dentist-loupes-led-lamp-patient",
+      "src": "originals/old-site/whatsapp222-mxb2qo72l1uemoxv.png",
+      "origin": "old-site",
+      "width": 1200,
+      "height": 1600,
+      "palette": false,
+      "focal": [
+        0.55,
+        0.5
+      ],
+      "variants": [
+        "banner",
+        "full"
+      ]
+    },
+    {
+      "slug": "dentist-treating-patient-cheek-retractor-bw",
+      "src": "originals/old-site/whatsapp-88-dwxln3l8k7u9j01d.png",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": true,
+      "focal": [
+        0.47,
+        0.55
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "implant-bridge-3d-render",
+      "src": "originals/old-site/d1-mje43wreb5snnxep.png",
+      "origin": "old-site",
+      "width": 691,
+      "height": 873,
+      "palette": false,
+      "focal": [
+        0.6,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "single-implant-crown-cross-section-illustration",
+      "src": "originals/old-site/d2-yg24dw0mw2fepvme.png",
+      "origin": "old-site",
+      "width": 552,
+      "height": 830,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.55
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "full-arch-six-implants-render",
+      "src": "originals/old-site/d3-ykb8bdqmjgh60vkk.png",
+      "origin": "old-site",
+      "width": 557,
+      "height": 632,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "lower-overdenture-two-implants-render",
+      "src": "originals/old-site/d4-mepg8w92vqs5jjqd.png",
+      "origin": "old-site",
+      "width": 557,
+      "height": 697,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "braces-models-coloured-ligatures",
+      "src": "originals/old-site/ds1-alp2ayzngrs5lwld.png",
+      "origin": "old-site",
+      "width": 557,
+      "height": 757,
+      "palette": false,
+      "focal": [
+        0.45,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "clear-aligner-held-smile-closeup",
+      "src": "originals/old-site/ds44-mk34egjp2oiewop4.png",
+      "origin": "old-site",
+      "width": 1007,
+      "height": 448,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.55
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "smile-half-white-teeth-closeup",
+      "src": "originals/old-site/ds3-awv8zgvrqosjr3le.png",
+      "origin": "old-site",
+      "width": 276,
+      "height": 371,
+      "palette": false,
+      "focal": [
+        0.6,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "smile-half-yellowish-teeth-closeup",
+      "src": "originals/old-site/ds4-m5k8njk10pfrajq5.png",
+      "origin": "old-site",
+      "width": 270,
+      "height": 367,
+      "palette": false,
+      "focal": [
+        0.4,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "molar-inlay-filling-3d-render",
+      "src": "originals/old-site/aq1-awv8zgx5rah2ejj8.png",
+      "origin": "old-site",
+      "width": 552,
+      "height": 898,
+      "palette": false,
+      "focal": [
+        0.6,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "tooth-extraction-forceps-3d-render",
+      "src": "originals/old-site/aq2-mepg8q0x0esl79vz.png",
+      "origin": "old-site",
+      "width": 552,
+      "height": 412,
+      "palette": false,
+      "focal": [
+        0.68,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "root-canal-file-molar-cross-section",
+      "src": "originals/old-site/aq3-m5k8njedvvtbz7vr.png",
+      "origin": "old-site",
+      "width": 517,
+      "height": 898,
+      "palette": false,
+      "focal": [
+        0.45,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "tilted-molar-against-neighbour-3d",
+      "src": "originals/old-site/aq4-ynqmxqzo93snpnby.png",
+      "origin": "old-site",
+      "width": 518,
+      "height": 901,
+      "palette": false,
+      "focal": [
+        0.55,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "clinician-pointing-panoramic-xray-laptop",
+      "src": "originals/old-site/whatsapp33-am-2-mxb2q5ep23cqz3oz.png",
+      "origin": "old-site",
+      "width": 1600,
+      "height": 1600,
+      "palette": true,
+      "focal": [
+        0.5,
+        0.45
+      ],
+      "variants": [
+        "hero",
+        "hero-m",
+        "full"
+      ]
+    },
+    {
+      "slug": "smile-design-guide-lines-overlay",
+      "src": "originals/old-site/ds33-yan04eq1agczxzor.png",
+      "origin": "old-site",
+      "width": 1057,
+      "height": 702,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "nose-profiles-split-mono-colour",
+      "src": "originals/old-site/n1-yd0e2pm5e0hlmnpw.png",
+      "origin": "old-site",
+      "width": 658,
+      "height": 502,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.6
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "woman-profile-yellow-backdrop",
+      "src": "originals/old-site/n4-ar01ejx46kinarqa.png",
+      "origin": "old-site",
+      "width": 571,
+      "height": 582,
+      "palette": false,
+      "focal": [
+        0.7,
+        0.35
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "gloved-hand-marker-on-nose",
+      "src": "originals/old-site/n5-mp43jxaedbfdnj37.png",
+      "origin": "old-site",
+      "width": 1262,
+      "height": 835,
+      "palette": false,
+      "focal": [
+        0.52,
+        0.38
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "woman-nose-lips-profile-closeup",
+      "src": "originals/old-site/n3-ybgjpq05qxi81gr6.png",
+      "origin": "old-site",
+      "width": 556,
+      "height": 572,
+      "palette": false,
+      "focal": [
+        0.3,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "nose-bridge-profile-diptych-arrows",
+      "src": "originals/old-site/s22-aqee526wqjt2zjjq.jpg",
+      "origin": "old-site",
+      "width": 1200,
+      "height": 900,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "nasal-speculum-exam-surgical-cap",
+      "src": "originals/old-site/s33-yyvdnoe1l3s0lbqy.jpg",
+      "origin": "old-site",
+      "width": 1200,
+      "height": 844,
+      "palette": false,
+      "focal": [
+        0.47,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "nose-bridge-upturned-diptych-arrows",
+      "src": "originals/old-site/s11-m7vdnezpbatplrlq.jpg",
+      "origin": "old-site",
+      "width": 1200,
+      "height": 1046,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "otoplasty-rear-view-before-after-brown-hair",
+      "src": "originals/old-site/otoplastica-ragazza-4-aq2gld2dv0fpnoee.jpg",
+      "origin": "old-site",
+      "width": 842,
+      "height": 550,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "otoplasty-ear-closeup-before-after-stubble",
+      "src": "originals/old-site/immagine-2025-10-29-162853-m2wqv2w2xqt4lkd0.png",
+      "origin": "old-site",
+      "width": 843,
+      "height": 650,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "otoplasty-ear-profile-before-after-black-background",
+      "src": "originals/old-site/immagine-2025-10-29-163201sdds-agbzzwvbk4teqlg3.png",
+      "origin": "old-site",
+      "width": 637,
+      "height": 398,
+      "palette": true,
+      "focal": [
+        0.5,
+        0.5
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-hairline-marking-gloved-hands",
+      "src": "originals/old-site/immagine-2025-10-30-095948-mnl4rnlj7ptqlg8z.png",
+      "origin": "old-site",
+      "width": 692,
+      "height": 387,
+      "palette": false,
+      "focal": [
+        0.62,
+        0.42
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-front-view-before-after-bearded-man",
+      "src": "originals/old-site/immagine-2025-10-30-095926-alp29vqpoxhewnym.png",
+      "origin": "old-site",
+      "width": 1018,
+      "height": 852,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.35
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-young-man-hands-on-head-before-after",
+      "src": "originals/old-site/bartlomiej-aq2grkkqb9u3m9vp.jpg",
+      "origin": "old-site",
+      "width": 1000,
+      "height": 666,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-scalp-grafts-and-regrowth-top-view",
+      "src": "originals/old-site/trapianto_hdi_prima_dopo_ok-yx4jrnn8bnu8q0k6.jpg",
+      "origin": "old-site",
+      "width": 677,
+      "height": 369,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-temple-hairline-side-before-after",
+      "src": "originals/old-site/trapianto_capelli_copertina-mp84r003qzurmlg4.jpg",
+      "origin": "old-site",
+      "width": 825,
+      "height": 450,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.6
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "scalp-exam-handheld-scope-monitor",
+      "src": "originals/old-site/e11-mje4rwkb0qimjllx.png",
+      "origin": "old-site",
+      "width": 1241,
+      "height": 802,
+      "palette": false,
+      "focal": [
+        0.62,
+        0.35
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-transplant-marking-scalp-blue-marker",
+      "src": "originals/old-site/e22-yle4rzkbnmcwx6vv.png",
+      "origin": "old-site",
+      "width": 858,
+      "height": 501,
+      "palette": false,
+      "focal": [
+        0.55,
+        0.4
+      ],
+      "variants": [
+        "full"
+      ]
+    },
+    {
+      "slug": "hair-graft-preparation",
+      "src": "originals/stock/hair-graft-preparation.jpg",
+      "origin": "stock",
+      "width": 2400,
+      "height": 1351,
+      "palette": false,
+      "focal": [
+        0.42,
+        0.55
+      ],
+      "variants": [
+        "card",
+        "banner"
+      ]
+    },
+    {
+      "slug": "rhinoplasty-profile-before-after-dark-backdrop",
+      "src": "originals/old-site/immagine-2025dfgfd-yz9ejovejrikngwx.png",
+      "origin": "old-site",
+      "width": 571,
+      "height": 518,
+      "palette": false,
+      "focal": [
+        0.5,
+        0.45
+      ],
+      "variants": [
+        "full"
+      ]
+    }
+  ]
+}

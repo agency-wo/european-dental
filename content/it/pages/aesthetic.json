@@ -1,0 +1,102 @@
+{
+  "title": "Chirurgia estetica in Albania | European Dental",
+  "description": "Rinoplastica estetica e funzionale, settoplastica e otoplastica in Albania, con chirurghi di lunga esperienza internazionale e assistenza completa.",
+  "h1": "Chirurgia estetica",
+  "intro": {
+    "h2": "Servizi",
+    "p": [
+      "Ogni volto racconta una storia. Noi ci prendiamo cura del modo in cui vuoi raccontarla.",
+      "Nei nostri centri di eccellenza, la chirurgia plastica non è solo estetica: è una forma di equilibrio tra funzionalità e bellezza, un percorso medico e umano pensato per restituire fiducia e benessere a ogni paziente.",
+      "Collaboriamo con chirurghi specializzati di lunga esperienza internazionale, che utilizzano tecniche moderne, strumenti di ultima generazione e protocolli sicuri, garantendo risultati naturali e armoniosi.",
+      "Dalla prima consulenza alla fase post-operatoria, seguiamo ogni paziente con cura personalizzata, creando un’esperienza serena, chiara e trasparente."
+    ]
+  },
+  "rhinoplasty": {
+    "h2": "Rinoplastica estetica e funzionale",
+    "p": [
+      "Ritrova l’armonia del tuo profilo e la libertà del tuo respiro.",
+      "La rinoplastica è uno degli interventi più richiesti e più delicati: non si tratta solo di “rifare il naso”, ma di ridefinire l’equilibrio del volto rispettando l’identità di chi sei.",
+      "Offriamo due approcci complementari:"
+    ],
+    "items": [
+      "Rinoplastica estetica, per migliorare la forma, la proporzione e l’armonia del naso rispetto al viso.",
+      "Rinoplastica funzionale, per correggere eventuali difficoltà respiratorie dovute a deviazioni o malformazioni interne."
+    ],
+    "after": [
+      "Ogni intervento viene pianificato con una simulazione digitale 3D, che ti permette di vedere in anteprima il possibile risultato e scegliere insieme al chirurgo la soluzione più adatta.",
+      "Il recupero è rapido e controllato: la maggior parte dei pazienti riprende la vita normale in 7-10 giorni."
+    ]
+  },
+  "septoplasty": {
+    "h2": "Settoplastica",
+    "h3": "Settoplastica (correzione del setto nasale deviato)",
+    "p": [
+      "Respirare bene è il primo passo per vivere meglio.",
+      "La settoplastica è un intervento che ripristina la corretta funzionalità respiratoria correggendo la deviazione del setto nasale.",
+      "È spesso combinata con la rinoplastica funzionale per migliorare sia la respirazione che l’estetica del naso in un unico intervento.",
+      "I nostri chirurghi utilizzano tecniche mini-invasive che riducono gonfiore e tempi di guarigione, garantendo un risultato stabile e naturale.",
+      "L’intervento si svolge in anestesia locale o generale, in base alle necessità del paziente, e la degenza è generalmente di 24 ore."
+    ],
+    "items": [],
+    "after": []
+  },
+  "otoplasty": {
+    "h2": "Otoplastica",
+    "h3": "Otoplastica (correzione delle orecchie sporgenti o asimmetriche)",
+    "p": [
+      "Dona armonia al tuo volto con un gesto delicato ma decisivo.",
+      "L’otoplastica corregge le orecchie sporgenti, asimmetriche o di forma irregolare, migliorando in modo naturale la simmetria del viso.",
+      "È un intervento rapido, sicuro e con risultati permanenti, adatto sia a uomini che a donne, anche in età giovanile.",
+      "Grazie alle nuove tecniche di modellamento cartilagineo, le cicatrici sono praticamente invisibili e il ritorno alla vita quotidiana è possibile dopo pochi giorni.",
+      "Molti dei nostri pazienti descrivono questo trattamento come “un piccolo cambiamento che ha trasformato la loro sicurezza personale”."
+    ],
+    "items": [],
+    "after": []
+  },
+  "why": {
+    "h2": "Perché scegliere noi",
+    "items": [
+      "Collaboriamo con chirurghi di altissima esperienza internazionale",
+      "Utilizziamo tecnologie 3D e protocolli clinici moderni",
+      "Offriamo assistenza completa pre e post operatoria",
+      "Soluzioni personalizzate in base al budget e alle esigenze",
+      "Pacchetti “viaggio + intervento + assistenza” inclusivi e trasparenti"
+    ],
+    "h3": "La tua nuova immagine inizia da qui",
+    "p": [
+      "Un volto armonioso non è solo un risultato estetico, ma un nuovo modo di sentirsi bene con sé stessi.",
+      "Contattaci per una consulenza gratuita: insieme troveremo la clinica, il chirurgo e la soluzione perfetta per te.",
+      "Prenota la tua valutazione personalizzata oggi.",
+      "Scopri quanto può cambiare la tua vita con un solo gesto."
+    ]
+  },
+  "testimonials": {
+    "h2": "Testimonianze",
+    "quotes": [
+      {
+        "title": "“Mi guardo allo specchio e finalmente mi riconosco.”",
+        "text": "Dopo anni in cui cercavo di accettare il mio naso, ho deciso di affidarmi ai professionisti di questa clinica. Mi hanno seguito passo dopo passo, con attenzione e gentilezza. Il risultato è incredibile: naturale, armonioso e perfettamente bilanciato. Ora respiro meglio e mi sento più sicura di me.",
+        "name": "Chiara M., 31 anni, rinoplastica estetica e funzionale"
+      },
+      {
+        "title": "“Un intervento che ha migliorato non solo il mio volto, ma anche la mia vita.”",
+        "text": "Avevo difficoltà respiratorie da sempre, e la deviazione del setto mi creava molti problemi. La settoplastica è stata la scelta migliore della mia vita. Intervento rapido, nessun dolore, e una professionalità che mi ha fatto sentire al sicuro dal primo giorno.",
+        "name": "Lorenzo F., 45 anni, settoplastica funzionale"
+      },
+      {
+        "title": "“Professionalità, umanità e risultati oltre ogni aspettativa.”",
+        "text": "Non è facile affidarsi, ma qui ho trovato un team che unisce esperienza chirurgica e sensibilità umana. Mi hanno spiegato tutto con chiarezza, mi hanno seguito anche dopo l’intervento, e oggi posso dire che è stato un percorso che mi ha cambiata dentro e fuori.",
+        "name": "Elisa P., 39 anni, rinoplastica estetica e funzionale"
+      },
+      {
+        "title": "“Un’esperienza che rifarei mille volte.”",
+        "text": "Ho scoperto questa clinica grazie all’agenzia: mi hanno seguito in tutto (viaggio, consulenza, intervento e post-operatorio). Non potevo immaginare un risultato così perfetto. Mi sento rinato, più sereno e in armonia con la mia immagine.",
+        "name": "Daniele C., 41 anni, settoplastica e rinoplastica combinate"
+      }
+    ]
+  },
+  "form": {
+    "h2": "Contattaci",
+    "subject": "Richiesta dalla pagina chirurgia estetica (italiano)"
+  }
+}

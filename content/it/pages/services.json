@@ -1,0 +1,15 @@
+{
+  "title": "Servizi dentali ed estetici in Albania | European Dental",
+  "description": "Trattamenti dentali, chirurgia estetica e trapianto capelli: le cure che organizziamo con cliniche certificate in Albania, dalla prima domanda al post-operatorio.",
+  "h1": "Servizi",
+  "lead": "Qualità e cura per le tue esigenze",
+  "cards": {
+    "dental": { "title": "Trattamenti dentali", "text": "Odontoiatria restaurativa, ortodonzia moderna, odontoiatria estetica, odontoiatria generale." },
+    "aesthetic": { "title": "Chirurgia estetica", "text": "Rinoplastica estetica e funzionale, settoplastica (correzione del setto nasale deviato), otoplastica (correzione delle orecchie sporgenti o asimmetriche)." },
+    "hair": { "title": "Trapianto capelli", "text": "Tecniche avanzate: FUE (Follicular Unit Extraction) e DHI (Direct Hair Implantation). Trattamenti complementari e cura post-operatoria." }
+  },
+  "contact": {
+    "h2": "Contattaci",
+    "subject": "Richiesta dalla pagina servizi (italiano)"
+  }
+}

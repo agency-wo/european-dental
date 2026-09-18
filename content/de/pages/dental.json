@@ -1,0 +1,116 @@
+{
+  "title": "Zahnbehandlungen in Albanien | European Dental",
+  "description": "Restaurative Zahnheilkunde, moderne Kieferorthopädie, ästhetische und allgemeine Zahnheilkunde in Albanien: Implantate, Kronen, transparente Aligner und Bleaching.",
+  "h1": "Zahnbehandlungen",
+  "intro": {
+    "h2": "Leistungen",
+    "p": [
+      "Ein schönes Lächeln entsteht aus dem Zusammenspiel von moderner Technologie, klinischer Erfahrung und ästhetischem Blick.",
+      "Wir arbeiten mit hoch qualifizierten Fachleuten zusammen, um Ihnen eine umfassende Zahnmedizin zu bieten, die Ihre Zahngesundheit wiederherstellt, verbessert und schützt, mit Ergebnissen, die Sie jeden Tag spüren und sehen."
+    ]
+  },
+  "restorative": {
+    "h2": "Restaurative Zahnheilkunde",
+    "p": [
+      "Gewinnen Sie mit maßgeschneiderten Lösungen die volle Funktion und die natürliche Ästhetik Ihrer Zähne zurück:"
+    ],
+    "items": [
+      "Zahnbrücken und Kronen: Mit belastbaren, natürlich wirkenden Materialien stellen sie die Harmonie Ihres Lächelns wieder her.",
+      "Zahnimplantate: dauerhafter Ersatz für fehlende Zähne, stabil und nicht von natürlichen Zähnen zu unterscheiden.",
+      "Herausnehmbarer oder implantatgetragener Zahnersatz: Komfort, Stabilität und Schönheit für jeden Bedarf.",
+      "Festsitzender Zahnersatz für einen ganzen Kiefer auf Implantaten: eine vollständige Verwandlung Ihres Lächelns, sicher und mit sofortigem Ergebnis.",
+      "Ersatz eines einzelnen Zahns: eine gezielte Lösung, die Gleichgewicht und Ästhetik zurückgibt."
+    ],
+    "after": [
+      "Jede Restauration wird mit digitaler Präzision und handwerklicher Sorgfalt geplant, für ein Lächeln, das lange hält."
+    ]
+  },
+  "orthodontics": {
+    "h2": "Moderne Kieferorthopädie",
+    "p": [
+      "Ein schönes Lächeln ist auch ein gerades und gesundes Lächeln.",
+      "Wir bieten individuelle kieferorthopädische Behandlungen für Erwachsene und Jugendliche:"
+    ],
+    "items": [
+      "Klassische Zahnspangen, dezent und wirksam.",
+      "Transparente Aligner, die unsichtbare Lösung, um Ihre Zähne ohne Einschränkungen und mit Komfort zu begradigen."
+    ],
+    "after": [
+      "Technologie, Ästhetik und Alltagstauglichkeit verbinden sich zu einem vollkommen harmonischen Lächeln, ohne Verzicht."
+    ]
+  },
+  "cosmetic": {
+    "h2": "Ästhetische Zahnheilkunde",
+    "p": [
+      "Ihr Erscheinungsbild beginnt mit Ihrem Lächeln.",
+      "Mit unseren ästhetischen Behandlungen können Sie die Strahlkraft, die Symmetrie und das Selbstvertrauen zurückgewinnen, die Sie verdienen:"
+    ],
+    "items": [
+      "Professionelles Bleaching für ein weißeres, strahlenderes Lächeln, völlig sicher.",
+      "Smile-Makeover, um Proportionen und Farben neu zu gestalten und Ihre Einzigartigkeit zu betonen."
+    ],
+    "after": [
+      "Jedes Lächeln ist ein Kunstwerk, und unsere Aufgabe besteht darin, es unvergesslich zu machen."
+    ]
+  },
+  "general": {
+    "h2": "Allgemeine Zahnheilkunde",
+    "p": [
+      "Die Grundlage eines gesunden Lächelns ist ein gepflegter Mund.",
+      "Wir kümmern uns um die Vorbeugung und Behandlung der häufigsten Zahnerkrankungen:"
+    ],
+    "items": [
+      "Zahnfüllungen mit ästhetischen Materialien der neuesten Generation.",
+      "Zahnextraktionen und Entfernung von Weisheitszähnen, völlig sicher.",
+      "Wurzelkanalbehandlung mit mikroskopischer Präzision.",
+      "Sedierung bei erhaltenem Bewusstsein, für alle, die ihre Behandlung ohne Anspannung oder Angst angehen möchten."
+    ],
+    "after": [
+      "Hier trifft Technologie auf Einfühlungsvermögen: Unser Ziel ist, dass Sie sich jederzeit wohlfühlen."
+    ]
+  },
+  "closing": {
+    "h2": "Das perfekte Lächeln entsteht auf dem perfekten Weg.",
+    "p": [
+      "Jede Behandlung ist Teil eines Weges, der auf Sie zugeschnitten ist:"
+    ],
+    "items": [
+      "genaue Diagnose",
+      "digitale Planung des Lächelns",
+      "persönliche Betreuung vor, während und nach der Behandlung"
+    ],
+    "after": [
+      "Denn ein Lächeln ist nicht nur eine Frage der Zähne.",
+      "Es ist die Handschrift Ihres Glücks."
+    ]
+  },
+  "testimonials": {
+    "h2": "Erfahrungsberichte",
+    "quotes": [
+      {
+        "title": "„Endlich lächle ich, ohne darüber nachzudenken!“",
+        "text": "Jahrelang hatte ich die Behandlung meiner Zähne aufgeschoben, aus Angst und aus mangelndem Vertrauen. Hier habe ich ein Team gefunden, das mir zugehört, mich beruhigt und Schritt für Schritt begleitet hat. Die Implantate sind perfekt und natürlich, und mein Lächeln … war noch nie so echt!",
+        "name": "Maria G., 54 Jahre"
+      },
+      {
+        "title": "„Außergewöhnliche Fachleute, tadellose Ergebnisse.“",
+        "text": "Für eine Komplettsanierung mit einer implantatgetragenen Brücke habe ich mich in ihre Hände begeben. Alles wurde mit Präzision und Sorgfalt umgesetzt, vom Behandlungsplan bis zum fertigen Lächeln. Den Unterschied sieht man … und spürt ihn jeden Tag!",
+        "name": "Alessandro R., 47 Jahre"
+      },
+      {
+        "title": "„Dank ihnen traue ich mich wieder zu lächeln.“",
+        "text": "Nach Jahren mit Zahnproblemen und tausend erfolglos ausprobierten Lösungen habe ich hier echte Professionalität gefunden. Die Implantate sind perfekt, das Ergebnis ist natürlich, und endlich kann ich lächeln, ohne mich zu schämen. Es ist viel mehr als eine Behandlung: Es ist ein persönlicher Neubeginn.",
+        "name": "Marco L., 52 Jahre"
+      },
+      {
+        "title": "„Die Angst ist weg, das Lächeln ist zurück.“",
+        "text": "Ich hatte immer Angst vor dem Zahnarztbesuch, aber hier habe ich Menschen gefunden, die das wirklich verstehen. Mit der Sedierung bei erhaltenem Bewusstsein war alles einfach und schmerzfrei. Heute lache, spreche und lebe ich mit einer Freiheit, die ich vergessen hatte.",
+        "name": "Davide R., 39 Jahre"
+      }
+    ]
+  },
+  "form": {
+    "h2": "Kontakt",
+    "subject": "Anfrage von der Seite Zahnbehandlungen (Deutsch)"
+  }
+}

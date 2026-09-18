@@ -1,0 +1,15 @@
+{
+  "note": "Every public path, one column per language, relative to the language's prefix in data/site.json. Resolved by _tools/lib/routes.mjs.",
+  "routes": {
+    "home": { "de": "/", "it": "/", "en": "/" },
+    "services": { "de": "/leistungen/", "it": "/servizi/", "en": "/services/" },
+    "dental": { "de": "/zahnbehandlungen/", "it": "/trattamenti-dentali/", "en": "/dental-treatments/" },
+    "aesthetic": { "de": "/aesthetische-chirurgie/", "it": "/chirurgia-estetica/", "en": "/aesthetic-surgery/" },
+    "hair": { "de": "/haartransplantation/", "it": "/trapianto-capelli/", "en": "/hair-transplant/" },
+    "contact": { "de": "/kontakt/", "it": "/contatti/", "en": "/contact/" },
+    "privacy": { "de": "/datenschutz/", "it": "/privacy/", "en": "/privacy/" },
+    "imprint": { "de": "/impressum/", "it": "/note-legali/", "en": "/legal-notice/" },
+    "notFound": { "de": "/404.html" }
+  },
+  "slugs": {}
+}

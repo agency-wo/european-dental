@@ -1,0 +1,15 @@
+{
+  "title": "Kontakt | European Dental",
+  "description": "Schreiben Sie uns für einen Kostenvoranschlag oder eine Frage zu Zahnbehandlungen und Ästhetik in Albanien. Wir antworten innerhalb von 24 Stunden.",
+  "h1": "Kontakt",
+  "lead": "Füllen Sie die Felder aus und schreiben Sie uns Ihr Anliegen. Wir antworten innerhalb von 24 Stunden. Vielen Dank!",
+  "formLabel": "Kontaktformular",
+  "subject": "Anfrage von der Kontaktseite (Deutsch)",
+  "location": {
+    "h2": "So finden Sie uns",
+    "lead": "Besuchen Sie uns",
+    "address": "Adresse",
+    "hours": "Öffnungszeiten",
+    "map": "Karte öffnen"
+  }
+}

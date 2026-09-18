@@ -1,0 +1,44 @@
+{
+  "title": "Cure dentali ed estetiche in Albania | European Dental",
+  "description": "European Dental ti mette in contatto con cliniche certificate in Albania per cure dentali, chirurgia estetica e trapianto capelli, con assistenza in ogni fase.",
+  "h1": "Cure dentali ed estetiche in Albania",
+  "statement": "Perché ogni sorriso racconta una storia e la tua merita di brillare di nuovo",
+  "subline": "Scopri i servizi odontoiatrici ed estetici premium in Albania",
+  "ctaBook": "Prenota appuntamento",
+  "ctaCall": "Chiamaci",
+  "welcome": {
+    "h2": "Benvenuti in European Dental",
+    "mission": {
+      "h3": "La nostra missione",
+      "p": [
+        "Siamo il tuo consulente di fiducia. La nostra agenzia collabora con le migliori cliniche certificate in Albania, selezionate per eccellenza, sicurezza e risultati.",
+        "Aiutiamo i clienti a scegliere la soluzione ideale in base al budget, alla sicurezza e ai risultati desiderati, offrendo un'assistenza personalizzata in ogni fase del percorso."
+      ]
+    },
+    "offer": {
+      "h3": "I nostri servizi",
+      "p": [
+        "Trattamenti personalizzati in estetica dentale, chirurgia estetica e trapianto capelli. Ogni intervento è progettato per valorizzarti, rispettando la tua naturale unicità.",
+        "Perché la vera bellezza non cambia chi sei: la fa emergere."
+      ]
+    }
+  },
+  "services": {
+    "h2": "I nostri servizi",
+    "lead": "Cura di qualità per la tua bellezza",
+    "cards": {
+      "dental": { "title": "Trattamenti dentali", "text": "Faccette dentali, restyling del sorriso, impianti dentali, sbiancamento professionale, ortodonzia moderna." },
+      "aesthetic": { "title": "Chirurgia estetica", "text": "Rinoplastica estetica e funzionale, settoplastica, otoplastica." },
+      "hair": { "title": "Trapianto capelli", "text": "Offriamo tecniche avanzate di trapianto dei capelli, risultati naturali e assistenza completa." }
+    }
+  },
+  "gallery": {
+    "h2": "Galleria",
+    "lead": "Impressioni"
+  },
+  "quote": {
+    "h2": "Chiedi un preventivo",
+    "lead": "Chiedi un preventivo gratuito e senza impegni.",
+    "subject": "Richiesta di preventivo dal sito (italiano)"
+  }
+}

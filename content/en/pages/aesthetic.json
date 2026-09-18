@@ -1,0 +1,102 @@
+{
+  "title": "Aesthetic surgery in Albania | European Dental",
+  "description": "Cosmetic and functional rhinoplasty, septoplasty and otoplasty in Albania, with complete support and surgeons who have many years of international experience.",
+  "h1": "Aesthetic surgery",
+  "intro": {
+    "h2": "Services",
+    "p": [
+      "Every face tells a story. We take care of the way you want to tell it.",
+      "In our centres of excellence, plastic surgery is not only about looks: it is a balance between function and beauty, a medical and human journey designed to restore confidence and well-being to every patient.",
+      "We work with specialist surgeons who have many years of international experience and who use modern techniques, the latest instruments and safe protocols, guaranteeing natural, harmonious results.",
+      "From the first consultation to the post-operative phase, we follow every patient with personalised care, creating a calm, clear and transparent experience."
+    ]
+  },
+  "rhinoplasty": {
+    "h2": "Cosmetic and functional rhinoplasty",
+    "p": [
+      "Regain the harmony of your profile and breathe freely again.",
+      "Rhinoplasty is one of the most requested and most delicate procedures: it is not just about “getting a nose job”, but about redefining the balance of the face while respecting who you are.",
+      "We offer two complementary approaches:"
+    ],
+    "items": [
+      "Cosmetic rhinoplasty, to improve the shape, proportion and harmony of the nose in relation to the face.",
+      "Functional rhinoplasty, to correct any breathing difficulties caused by internal deviations or malformations."
+    ],
+    "after": [
+      "Every procedure is planned with a 3D digital simulation, which lets you preview the possible result and choose the most suitable solution together with the surgeon.",
+      "Recovery is quick and monitored: most patients return to normal life within 7-10 days."
+    ]
+  },
+  "septoplasty": {
+    "h2": "Septoplasty",
+    "h3": "Septoplasty (correcting a deviated nasal septum)",
+    "p": [
+      "Breathing well is the first step to living better.",
+      "Septoplasty is a procedure that restores proper breathing by correcting a deviated nasal septum.",
+      "It is often combined with functional rhinoplasty to improve both breathing and the appearance of the nose in a single procedure.",
+      "Our surgeons use minimally invasive techniques that reduce swelling and healing time, guaranteeing a stable, natural result.",
+      "The procedure is carried out under local or general anaesthesia, depending on the patient’s needs, and the hospital stay is usually 24 hours."
+    ],
+    "items": [],
+    "after": []
+  },
+  "otoplasty": {
+    "h2": "Otoplasty",
+    "h3": "Otoplasty (correcting protruding or asymmetric ears)",
+    "p": [
+      "Bring harmony to your face with a gentle but decisive step.",
+      "Otoplasty corrects protruding, asymmetric or irregularly shaped ears, naturally improving the symmetry of the face.",
+      "It is a quick, safe procedure with permanent results, suitable for both men and women, including young people.",
+      "Thanks to new cartilage shaping techniques, scars are practically invisible and you can return to daily life after a few days.",
+      "Many of our patients describe this treatment as “a small change that transformed their self-confidence”."
+    ],
+    "items": [],
+    "after": []
+  },
+  "why": {
+    "h2": "Why choose us",
+    "items": [
+      "We work with surgeons who have outstanding international experience",
+      "We use 3D technology and modern clinical protocols",
+      "We offer complete support before and after surgery",
+      "Personalised solutions to suit your budget and needs",
+      "Inclusive, transparent “travel + surgery + support” packages"
+    ],
+    "h3": "Your new image starts here",
+    "p": [
+      "A harmonious face is not only an aesthetic result, but a new way of feeling good about yourself.",
+      "Contact us for a free consultation: together we will find the clinic, the surgeon and the perfect solution for you.",
+      "Book your personalised assessment today.",
+      "Discover how much a single step can change your life."
+    ]
+  },
+  "testimonials": {
+    "h2": "Testimonials",
+    "quotes": [
+      {
+        "title": "“I look in the mirror and finally recognise myself.”",
+        "text": "After years of trying to accept my nose, I decided to put my trust in the professionals at this clinic. They guided me step by step, with care and kindness. The result is incredible: natural, harmonious and perfectly balanced. Now I breathe better and feel more confident.",
+        "name": "Chiara M., 31, cosmetic and functional rhinoplasty"
+      },
+      {
+        "title": "“A procedure that improved not only my face, but also my life.”",
+        "text": "I had always had breathing difficulties, and my deviated septum caused me many problems. Septoplasty was the best decision of my life. A quick procedure, no pain, and a level of professionalism that made me feel safe from the very first day.",
+        "name": "Lorenzo F., 45, functional septoplasty"
+      },
+      {
+        "title": "“Professionalism, humanity and results beyond all expectations.”",
+        "text": "It is not easy to put your trust in someone, but here I found a team that combines surgical experience with human sensitivity. They explained everything clearly, they looked after me after the procedure too, and today I can say it was a journey that changed me inside and out.",
+        "name": "Elisa P., 39, cosmetic and functional rhinoplasty"
+      },
+      {
+        "title": "“An experience I would repeat a thousand times.”",
+        "text": "I found this clinic through the agency: they took care of everything for me (travel, consultation, surgery and aftercare). I could not have imagined such a perfect result. I feel reborn, calmer and at ease with my appearance.",
+        "name": "Daniele C., 41, combined septoplasty and rhinoplasty"
+      }
+    ]
+  },
+  "form": {
+    "h2": "Contact us",
+    "subject": "Request from the aesthetic surgery page (English)"
+  }
+}

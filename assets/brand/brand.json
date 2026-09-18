@@ -1,0 +1,32 @@
+{
+  "source": "originals/brand/european-dental-logo.jpeg",
+  "markBox": [
+    447,
+    190,
+    1046,
+    684
+  ],
+  "wordBox": [
+    122,
+    724,
+    1326,
+    891
+  ],
+  "capTop": 730,
+  "baseline": 851,
+  "lockup": {
+    "w": 1606,
+    "h": 259,
+    "ratio": 6.2008,
+    "heights": {
+      "320": 52,
+      "640": 103,
+      "960": 155
+    }
+  },
+  "stacked600": {
+    "w": 600,
+    "h": 349
+  },
+  "starsDroppedFromIcon": 8
+}
