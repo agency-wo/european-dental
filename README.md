@@ -28,9 +28,9 @@ browser checks need Microsoft Edge installed.
 
 ## Deploy
 
-Every push to `main` deploys to Cloudflare Workers through `.github/workflows/deploy.yml`: it runs
-`node _tools/build.mjs --check`, then `wrangler deploy` with an API token for the hosting account, kept in the
-repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`. `wrangler.jsonc` serves `./site` only.
+Cloudflare Workers, deployed with `npx wrangler deploy` from a machine logged into the hosting account:
+check the account with `npx wrangler whoami` first, and run `node _tools/build.mjs --check` before deploying.
+`wrangler.jsonc` serves `./site` only.
 
 Until then, every push to `main` publishes a preview to https://agency-wo.github.io/european-dental/
 (`.github/workflows/pages.yml`, through `_tools/pages-dist.mjs`).

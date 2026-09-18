@@ -1,6 +1,5 @@
-// The deploy workflow (.github/workflows/deploy.yml) deploys this on every push to main.
+// Deployed with `npx wrangler deploy` from a machine logged into the hosting account (check `wrangler whoami`).
 // Only ./site is served. Tooling, sources and data never are.
-// Nobody deploys from a local wrangler.
 {
   "name": "european-dental",
   "compatibility_date": "2026-09-18",

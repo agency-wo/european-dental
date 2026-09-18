@@ -20,7 +20,7 @@ language has its own words in its URLs. Each check is numbered and prints PASS o
  13  a preview is noindex three ways (meta robots, robots.txt, X-Robots-Tag) and the sitemap lists pages
  14  site/ holds nothing the build or the image pipeline did not claim; Cloudflare limits (25 MiB a file,
      fewer than 20,000 files)
- 15  wrangler tripwire: no .wrangler/ folder, wrangler.jsonc names european-dental and ./site with no main,
+ 15  wrangler guard: .wrangler/ ignored and never tracked, wrangler.jsonc names european-dental and ./site with no main,
      and no wrangler dependency in _tools/package.json
  16  no sentence from one language's copy appears on another language's page
  17  every page loads main.js and motion.css; pages with a form load forms.js; home loads slider.js and
@@ -34,6 +34,7 @@ import base64
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
@@ -320,8 +321,16 @@ if len(on_disk) >= 20000:
     fail(14, f"site/ has {len(on_disk)} files; Cloudflare allows fewer than 20,000")
 
 # ---------- 15 ----------
-if (ROOT / ".wrangler").exists():
-    fail(15, ".wrangler/ exists: wrangler ran in this project, which must never happen (wrong account)")
+# wrangler deploys from a machine logged into the hosting account (check `wrangler whoami` first); its
+# .wrangler/ folder is a local cache and must never be published
+if ".wrangler/" not in (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines():
+    fail(15, ".gitignore must ignore .wrangler/, wrangler's local cache")
+try:
+    tracked = subprocess.run(["git", "ls-files", ".wrangler"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+    if tracked:
+        fail(15, ".wrangler/ is tracked by git; it is wrangler's local cache and must never be committed")
+except FileNotFoundError:
+    pass
 wj = (ROOT / "wrangler.jsonc").read_text(encoding="utf-8")
 wj_clean = json.loads(re.sub(r"^\s*//.*$", "", wj, flags=re.M))
 if wj_clean.get("name") != "european-dental" or wj_clean.get("assets", {}).get("directory") != "./site" or "main" in wj_clean:
