@@ -1,6 +1,6 @@
 # The gates that need no browser, on every push and pull request. The browser gates (smoke, weigh,
 # screenshots) run locally in the installed Edge before each push; see README.md.
-# Read-only: this workflow holds no secret and deploys nothing. Cloudflare builds the site itself.
+# Read-only: this workflow holds no secret and deploys nothing; deploy.yml deploys.
 name: gates
 
 on:

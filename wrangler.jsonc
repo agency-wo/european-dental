@@ -1,6 +1,6 @@
-// Workers Builds reads this file on every push to main.
+// The deploy workflow (.github/workflows/deploy.yml) deploys this on every push to main.
 // Only ./site is served. Tooling, sources and data never are.
-// Deploys run only in Workers Builds, never from a local wrangler.
+// Nobody deploys from a local wrangler.
 {
   "name": "european-dental",
   "compatibility_date": "2026-09-18",
