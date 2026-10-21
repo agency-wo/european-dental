@@ -57,6 +57,12 @@ PAIRS = [
     ("c-white", "c-navy", 3.0, "focus ring in the footer"),
     ("c-white", "scrim-worst", 3.0, "focus ring on the statement band and the contact hero"),
     ("c-navy", "c-white", 3.0, "focus ring on a gallery thumbnail"),
+    # the floating WhatsApp button sits over every surface the page scrolls under it
+    ("c-white", "c-whatsapp", 3.0, "the glyph on the floating WhatsApp button (graphic)"),
+    ("c-whatsapp", "c-white", 3.0, "the floating WhatsApp button over white sections (UI boundary)"),
+    ("c-whatsapp", "c-ice", 3.0, "the floating WhatsApp button over ice sections"),
+    ("c-whatsapp", "c-ivory", 3.0, "the floating WhatsApp button over ivory sections"),
+    ("c-whatsapp", "c-navy", 3.0, "the floating WhatsApp button over the navy footer"),
 ]
 # (rgba token, the hex token it sits over, the hex token recording the result, where)
 COMPOSITES = [

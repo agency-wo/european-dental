@@ -56,11 +56,24 @@
     toast(a.getAttribute("data-todo-msg"));
   });
 
+  /* ---------- WhatsApp on a computer ----------
+     On a computer wa.me first shows WhatsApp's own "Continue to chat" page. There the links go straight to
+     the chat in WhatsApp Web instead, message already typed. A phone or tablet keeps wa.me, which opens the
+     installed app directly; without JavaScript every link stays wa.me. */
+  var ua = navigator.userAgent || "";
+  var handheld = /Android|iPhone|iPad|iPod|Mobile/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  if (!handheld) {
+    [].forEach.call(document.querySelectorAll('a[href^="https://wa.me/"]:not([data-todo-msg])'), function (a) {
+      var m = /^https:\/\/wa\.me\/(\d+)(?:\?text=(.*))?$/.exec(a.getAttribute("href"));
+      if (m) a.setAttribute("href", "https://web.whatsapp.com/send?phone=" + m[1] + (m[2] ? "&text=" + m[2] : ""));
+    });
+  }
+
   /* ---------- mobile navigation ---------- */
   var toggle = document.querySelector(".nav-toggle");
   var menu = document.getElementById("nav-menu");
   function setInert(on) {
-    var els = document.querySelectorAll("main, .site-footer, .skip-link");
+    var els = document.querySelectorAll("main, .site-footer, .skip-link, .wa-float");
     for (var i = 0; i < els.length; i++) {
       if (on) els[i].setAttribute("inert", ""); else els[i].removeAttribute("inert");
     }

@@ -205,6 +205,7 @@ ${NAV.map(([id, key]) => `        <li><a class="footer-link" href="${ctx.route(i
     ${langSwitch(ctx, p, "footer")}
   </div>
 </footer>
+${link(ctx, "whatsapp", { cls: "wa-float", aria: t("wa.float"), inner: ICON.chat })}
 <div class="toast" role="status" aria-live="polite" hidden></div>`;
 }
 

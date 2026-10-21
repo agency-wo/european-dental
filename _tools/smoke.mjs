@@ -5,8 +5,9 @@
    Session 1 steps (the motion steps join in Session 2):
      a  every page answers 200, with no console error, no CSP violation and no failed request
      b  no horizontal overflow at 320, 390 and 1440, and the two web fonts are loaded
-     c  the WhatsApp button opens the chat in a new tab, or is marked as a placeholder while the number is
-        TODO; a placeholder contact link is refused with a visible toast, and navigation does not happen
+     c  the booking and floating WhatsApp buttons open the chat in a new tab (wa.me on a phone, WhatsApp Web
+        on a computer), or are marked as placeholders while the number is TODO; the floating one sits bottom
+        left; a placeholder contact link is refused with a visible toast, and navigation does not happen
      d  the mobile drawer: opens, focuses its first link, keeps Tab inside, shows a language link,
         closes on Escape and returns focus to the toggle, and releases the scroll lock
      e  a form with a placeholder Web3Forms key refuses to send and says so in a role=alert banner
@@ -50,7 +51,7 @@ const results = [];
 const check = (step, cond, msg) => { results.push({ step, ok: !!cond, msg }); if (!cond) console.log(`FAIL  ${step}  ${msg}`); };
 
 async function newPage(o = {}) {
-  const ctx = await browser.newContext({ viewport: { width: o.w || 1440, height: o.h || 900 }, deviceScaleFactor: o.dpr || 1, isMobile: (o.w || 1440) <= 600, hasTouch: (o.w || 1440) <= 600, javaScriptEnabled: o.js !== false, reducedMotion: o.reduced ? "reduce" : "no-preference" });
+  const ctx = await browser.newContext({ viewport: { width: o.w || 1440, height: o.h || 900 }, deviceScaleFactor: o.dpr || 1, isMobile: (o.w || 1440) <= 600, hasTouch: (o.w || 1440) <= 600, javaScriptEnabled: o.js !== false, reducedMotion: o.reduced ? "reduce" : "no-preference", userAgent: o.ua });
   const page = await ctx.newPage();
   page.errors = [];
   page.on("console", (m) => { if (m.type() === "error") page.errors.push(m.text()); });
@@ -79,13 +80,27 @@ try {
   }
 
   if (run("c")) {
+    /* the booking button and the floating button are WhatsApp: a refused placeholder until the number is set,
+       then the chat in a new tab. A phone keeps wa.me, which opens the app; a computer goes straight to the
+       chat in WhatsApp Web, past wa.me's own "Continue to chat" page */
+    const digits = SITE.whatsapp.replace(/\D/g, "");
+    const IPHONE = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1";
+    for (const [label, o, prefix] of [["phone", { w: 390, h: 844, ua: IPHONE }, `https://wa.me/${digits}?text=`], ["computer", { w: 1440, h: 900 }, `https://web.whatsapp.com/send?phone=${digits}&text=`]]) {
+      const { ctx, page } = await newPage(o);
+      await page.goto(base + "/", { waitUntil: "load" });
+      const fl = await page.locator(".wa-float").boundingBox();
+      check("c", fl && fl.x <= 32 && o.h - (fl.y + fl.height) <= 40 && fl.width >= 44, `${label}: the WhatsApp button floats at the bottom left, at least 44 px wide (got ${JSON.stringify(fl)})`);
+      const links = await page.evaluate(() => [document.querySelector(".intro .actions a"), document.querySelector(".wa-float")].map((a) => a && ({ href: a.href, todo: a.hasAttribute("data-todo-msg"), target: a.target })));
+      for (const [i, wa] of links.entries()) {
+        const which = i ? "floating" : "booking";
+        if (/^TODO/.test(SITE.whatsapp)) check("c", wa && wa.todo, `${label}: the placeholder ${which} WhatsApp button must carry data-todo-msg`);
+        else check("c", wa && wa.href.startsWith(prefix) && !wa.todo && wa.target === "_blank", `${label}: the ${which} WhatsApp button must open ${prefix} in a new tab (got ${JSON.stringify(wa)})`);
+      }
+      await ctx.close();
+    }
     const { ctx, page } = await newPage({ w: 390, h: 844 });
     await page.goto(base + "/", { waitUntil: "load" });
     const before = page.url();
-    /* the booking button is WhatsApp: a real chat once the number is set, a refused placeholder until then */
-    const wa = await page.locator(".intro .actions a").first().evaluate((a) => ({ href: a.href, todo: a.hasAttribute("data-todo-msg"), target: a.target }));
-    if (/^TODO/.test(SITE.whatsapp)) check("c", wa.todo, "the placeholder WhatsApp button must carry data-todo-msg");
-    else check("c", wa.href.startsWith(`https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}?text=`) && !wa.todo && wa.target === "_blank", `the WhatsApp button must open the chat in a new tab (got ${JSON.stringify(wa)})`);
     const todo = page.locator("a[data-todo-msg]:visible").first();
     if (await todo.count()) {
       const msg = await todo.getAttribute("data-todo-msg");
