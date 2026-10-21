@@ -8,6 +8,8 @@ const stroke = 'fill="none" stroke="currentColor" stroke-width="1.6" stroke-line
 export const ICON = {
   phone: svg(`<path d="M6.6 3.5h2.6l1.3 4-1.9 1.4a11 11 0 0 0 6.5 6.5l1.4-1.9 4 1.3v2.6a2 2 0 0 1-2.2 2A16.5 16.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z" ${stroke}/>`),
   chat: svg(`<path d="M4.4 19.6l1.2-3.7A8 8 0 1 1 8.3 18.7z" ${stroke}/><path d="M9.3 8.4c.3 2.5 2.3 4.7 4.9 5.4l1.1-1.3-1.6-.9-.8.6c-1-.4-1.8-1.2-2.2-2.2l.6-.8-.9-1.6z" fill="currentColor"/>`),
+  // WhatsApp's mark, bolder than the line icons so it reads at a glance on its green: a speech bubble round a handset
+  whatsapp: svg(`<path d="M3.5 20.5l1.35-4.2A8.8 8.8 0 1 1 8.2 19.4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path transform="translate(-1.9 -1.85) scale(1.17)" d="M9.3 8.4c.3 2.5 2.3 4.7 4.9 5.4l1.1-1.3-1.6-.9-.8.6c-1-.4-1.8-1.2-2.2-2.2l.6-.8-.9-1.6z" fill="currentColor"/>`, "icon icon--wa"),
   mail: svg(`<rect x="3.5" y="5.5" width="17" height="13" rx="2" ${stroke}/><path d="M4 7l8 6 8-6" ${stroke}/>`),
   facebook: svg(`<path d="M14 8.5V7c0-.8.5-1.3 1.3-1.3H17V2.8h-2.4C11.9 2.8 10.6 4.4 10.6 7v1.5H8v3.1h2.6v9.6H14v-9.6h2.6l.4-3.1z" fill="currentColor"/>`),
   instagram: svg(`<rect x="3.5" y="3.5" width="17" height="17" rx="5" ${stroke}/><circle cx="12" cy="12" r="4" ${stroke}/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>`),
@@ -49,6 +51,10 @@ export function link(ctx, kind, o = {}) {
   const ext = ["whatsapp", "map", "facebook", "instagram"].includes(kind) && !c.todo ? ' target="_blank" rel="noopener"' : "";
   const cls = [o.cls, c.todo ? "is-todo" : ""].filter(Boolean).join(" ");
   return `<a${cls ? ` class="${cls}"` : ""} href="${esc(c.href)}"${ext}${c.todo ? ` data-todo-msg="${esc(c.todo)}"` : ""}${o.aria ? ` aria-label="${esc(o.aria)}"` : ""}>${o.inner || esc(o.label || c.label)}</a>`;
+}
+/* a site.json value written once for every language, or once per language: { "en": ..., "de": ... }, English the fallback */
+export function inLang(ctx, v) {
+  return v && typeof v === "object" ? (v[ctx.lang.code] ?? v.en) : v;
 }
 /* a placeholder value shown as a visible TODO, never passed off as real */
 export function valueOrTodo(ctx, v) {
@@ -205,7 +211,7 @@ ${NAV.map(([id, key]) => `        <li><a class="footer-link" href="${ctx.route(i
     ${langSwitch(ctx, p, "footer")}
   </div>
 </footer>
-${link(ctx, "whatsapp", { cls: "wa-float", aria: t("wa.float"), inner: ICON.chat })}
+${link(ctx, "whatsapp", { cls: "wa-float", aria: t("wa.float"), inner: `${ICON.whatsapp}<span class="wa-float__label" aria-hidden="true">${esc(t("wa.float"))}</span>` })}
 <div class="toast" role="status" aria-live="polite" hidden></div>`;
 }
 

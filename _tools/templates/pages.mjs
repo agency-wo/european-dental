@@ -1,7 +1,7 @@
 /* Page bodies. Copy lives in content/<lang>/pages/*.json and UI strings in i18n/<lang>.json; nothing
    visitor-facing is typed here except markup. Sections and their order follow the old site exactly:
    the rebrand is palette, type, logo, photography treatment and motion, not structure. */
-import { layout, pageHeader, link, w3fForm, valueOrTodo, ICON, SWOOSH } from "./chrome.mjs";
+import { layout, pageHeader, link, w3fForm, valueOrTodo, inLang, ICON, SWOOSH } from "./chrome.mjs";
 
 /* One picture of one variant of an image, with alt text from the page language's media.json. */
 function pic(ctx, slug, variant, o = {}) {
@@ -444,7 +444,7 @@ export function contactPage(ctx) {
     <p class="lead" data-reveal>${esc(c.location.lead)}</p>
     <dl class="info-card">
       <div data-reveal><dt>${ICON.pin}<span>${esc(c.location.address)}</span></dt><dd>${valueOrTodo(ctx, site.address)}</dd></div>
-      <div data-reveal><dt>${ICON.clock}<span>${esc(c.location.hours)}</span></dt><dd>${valueOrTodo(ctx, site.hours)}</dd></div>
+      <div data-reveal><dt>${ICON.clock}<span>${esc(c.location.hours)}</span></dt><dd>${valueOrTodo(ctx, inLang(ctx, site.hours))}</dd></div>
     </dl>
     <p class="actions" data-reveal>${link(ctx, "map", { cls: "btn btn--outline", inner: `${ICON.pin}<span>${esc(c.location.map)}</span>` })}</p>
   </div>

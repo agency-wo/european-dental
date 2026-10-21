@@ -59,6 +59,8 @@ PAIRS = [
     ("c-navy", "c-white", 3.0, "focus ring on a gallery thumbnail"),
     # the floating WhatsApp button sits over every surface the page scrolls under it
     ("c-white", "c-whatsapp", 3.0, "the glyph on the floating WhatsApp button (graphic)"),
+    ("c-white", "c-whatsapp-deep", 3.0, "the glyph over the deeper foot of the WhatsApp button's gradient"),
+    ("c-navy", "c-white", 4.5, "the WhatsApp button's label, navy on its white tag"),
     ("c-whatsapp", "c-white", 3.0, "the floating WhatsApp button over white sections (UI boundary)"),
     ("c-whatsapp", "c-ice", 3.0, "the floating WhatsApp button over ice sections"),
     ("c-whatsapp", "c-ivory", 3.0, "the floating WhatsApp button over ivory sections"),

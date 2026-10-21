@@ -89,7 +89,7 @@ try {
       const { ctx, page } = await newPage(o);
       await page.goto(base + "/", { waitUntil: "load" });
       const fl = await page.locator(".wa-float").boundingBox();
-      check("c", fl && fl.x <= 32 && o.h - (fl.y + fl.height) <= 40 && fl.width >= 44, `${label}: the WhatsApp button floats at the bottom left, at least 44 px wide (got ${JSON.stringify(fl)})`);
+      check("c", fl && o.w - (fl.x + fl.width) <= 32 && o.h - (fl.y + fl.height) <= 40 && fl.width >= 44, `${label}: the WhatsApp button floats at the bottom right, at least 44 px wide (got ${JSON.stringify(fl)})`);
       const links = await page.evaluate(() => [document.querySelector(".intro .actions a"), document.querySelector(".wa-float")].map((a) => a && ({ href: a.href, todo: a.hasAttribute("data-todo-msg"), target: a.target })));
       for (const [i, wa] of links.entries()) {
         const which = i ? "floating" : "booking";

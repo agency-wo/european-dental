@@ -29,8 +29,10 @@
   --c-ok-fg: #0F5132;
   --c-ok-bg: #E6F3EC;
   --c-error-bg: #FDECEA;
-  /* the floating WhatsApp button: WhatsApp's own #25D366 holds a white glyph at only 1.98:1, this green at 3.48:1 */
+  /* the floating WhatsApp button: WhatsApp's own #25D366 holds a white glyph at only 1.98:1, this green at 3.48:1;
+     the deeper green is the foot of its gradient, where the glyph stands even further off */
   --c-whatsapp: #1A9E4C;
+  --c-whatsapp-deep: #13803E;
   /* photo scrims, and what each makes of the lightest pixel a photograph can have (contrast.py composites) */
   --scrim: rgba(8, 54, 95, 0.82);
   --scrim-worst: #345A7C;
@@ -385,16 +387,31 @@ h1:lang(de), h2:lang(de), h3:lang(de) { hyphens: auto; -webkit-hyphens: auto; }
 .is-todo { text-decoration-style: dotted; }
 
 /* ---------- floating WhatsApp button ----------
-   Bottom left on every page, clear of the centred toast and of a phone's home bar. Its green stands 3:1 off
-   the white, ice, ivory and navy surfaces (contrast.py); the white ring separates it from a photograph. */
-.wa-float { position: fixed; left: calc(16px + env(safe-area-inset-left, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 60; display: grid; place-items: center; width: 56px; height: 56px; border: 2px solid var(--c-white); border-radius: 50%; background: var(--c-whatsapp); color: var(--c-white); box-shadow: var(--shadow-2); transition: transform var(--t-fast) var(--ease); }
-.wa-float .icon { width: 30px; height: 30px; }
-.wa-float:hover { transform: translateY(-2px); }
+   Bottom right on every page, clear of the centred toast and of a phone's home bar: a round green button lit
+   from above, a soft green glow under it, and every few seconds a ring that breathes out from it (not for
+   anyone who prefers reduced motion). On wider screens a white tag beside it says what it does, in navy, so
+   the words read at full contrast. Its green stands 3:1 off the white, ice, ivory and navy surfaces
+   (contrast.py); the white ring separates it from a photograph. */
+.wa-float { position: fixed; right: calc(18px + env(safe-area-inset-right, 0px)); bottom: calc(18px + env(safe-area-inset-bottom, 0px)); z-index: 60; display: grid; place-items: center; width: 60px; height: 60px; border: 2px solid var(--c-white); border-radius: 50%; background: linear-gradient(160deg, var(--c-whatsapp) 35%, var(--c-whatsapp-deep)); color: var(--c-white); text-decoration: none; box-shadow: 0 10px 24px rgba(19, 128, 62, 0.34), 0 2px 6px rgba(8, 54, 95, 0.16); transition: transform var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease); }
+.wa-float .icon { width: 31px; height: 31px; }
+.wa-float::after { content: ""; position: absolute; inset: -2px; border: 2px solid var(--c-whatsapp); border-radius: 50%; opacity: 0; pointer-events: none; animation: wa-breathe 3.4s var(--ease) 1.6s infinite; }
+@keyframes wa-breathe {
+  0% { transform: scale(1); opacity: 0.7; }
+  60%, 100% { transform: scale(1.45); opacity: 0; }
+}
+.wa-float:hover { transform: translateY(-3px) scale(1.04); box-shadow: 0 14px 30px rgba(19, 128, 62, 0.4), 0 3px 8px rgba(8, 54, 95, 0.18); }
+.wa-float:active { transform: scale(0.97); }
+.wa-float__label { display: none; }
+@media (min-width: 900px) {
+  .wa-float__label { position: absolute; right: calc(100% + 12px); top: 50%; display: block; padding: 9px 16px; border: 1px solid var(--c-line); border-radius: var(--pill); background: var(--c-white); color: var(--c-navy); font-weight: 700; font-size: 0.95rem; line-height: 1.2; white-space: nowrap; box-shadow: var(--shadow-2); transform: translateY(-50%); transition: transform var(--t-fast) var(--ease); }
+  .wa-float:hover .wa-float__label { transform: translate(-3px, -50%); }
+}
 /* two tones, so the ring shows on a light section, the navy footer and a photograph alike */
 .wa-float:focus-visible { outline: 2px solid var(--c-navy); outline-offset: 2px; border-radius: 50%; box-shadow: 0 0 0 4px var(--c-white), var(--shadow-2); }
 .nav-open .wa-float { visibility: hidden; }
-/* below this width the button would sit on the footer's last line once the page is scrolled to the end */
-@media (max-width: 1299px) { .footer-base { padding-bottom: 100px; } }
+/* at any width the button (and, on wider screens, its label) would sit on the footer's last line, the
+   language switcher at its right end, once the page is scrolled to the end: the line keeps clear of it */
+.footer-base { padding-bottom: 100px; }
 @media print { .wa-float { display: none; } }
 
 /* ---------- reduced motion ---------- */

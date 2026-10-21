@@ -39,7 +39,7 @@
   "email": "info@dentaleuropean.com",
   "web3formsKey": "TODO-WEB3FORMS-KEY",
   "address": "Rr. Sheshi Liria, 2002, Durrës",
-  "hours": "TODO-HOURS",
+  "hours": { "en": "24 Hours", "de": "24 Stunden", "it": "24 ore su 24" },
   "mapUrl": "TODO-MAP-URL",
   "social": {
     "facebook": "TODO-FACEBOOK",
