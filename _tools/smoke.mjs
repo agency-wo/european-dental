@@ -5,7 +5,8 @@
    Session 1 steps (the motion steps join in Session 2):
      a  every page answers 200, with no console error, no CSP violation and no failed request
      b  no horizontal overflow at 320, 390 and 1440, and the two web fonts are loaded
-     c  a placeholder contact link is refused with a visible toast, and navigation does not happen
+     c  the WhatsApp button opens the chat in a new tab, or is marked as a placeholder while the number is
+        TODO; a placeholder contact link is refused with a visible toast, and navigation does not happen
      d  the mobile drawer: opens, focuses its first link, keeps Tab inside, shows a language link,
         closes on Escape and returns focus to the toggle, and releases the scroll lock
      e  a form with a placeholder Web3Forms key refuses to send and says so in a role=alert banner
@@ -36,6 +37,7 @@ import { start } from "./serve.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const inv = JSON.parse(readFileSync(path.join(ROOT, "_build", "manifest.json"), "utf8")).pages;
+const SITE = JSON.parse(readFileSync(path.join(ROOT, "data", "site.json"), "utf8"));
 const urlOf = (rel) => "/" + rel.replace(/index\.html$/, "");
 const PAGES = inv.filter((p) => p.route !== "notFound").map((p) => ({ ...p, url: urlOf(p.rel) }));
 const ONLY = (process.argv.find((a) => a.startsWith("--only=")) || "").slice(7).split(",").filter(Boolean);
@@ -80,9 +82,17 @@ try {
     const { ctx, page } = await newPage({ w: 390, h: 844 });
     await page.goto(base + "/", { waitUntil: "load" });
     const before = page.url();
-    await page.locator(".intro .actions a").first().click();
-    const toast = await page.locator(".toast").textContent();
-    check("c", page.url() === before && (await page.locator(".toast").isVisible()) && /WhatsApp/.test(toast), `the placeholder WhatsApp button must stay put and toast (got ${JSON.stringify(toast)})`);
+    /* the booking button is WhatsApp: a real chat once the number is set, a refused placeholder until then */
+    const wa = await page.locator(".intro .actions a").first().evaluate((a) => ({ href: a.href, todo: a.hasAttribute("data-todo-msg"), target: a.target }));
+    if (/^TODO/.test(SITE.whatsapp)) check("c", wa.todo, "the placeholder WhatsApp button must carry data-todo-msg");
+    else check("c", wa.href.startsWith(`https://wa.me/${SITE.whatsapp.replace(/\D/g, "")}?text=`) && !wa.todo && wa.target === "_blank", `the WhatsApp button must open the chat in a new tab (got ${JSON.stringify(wa)})`);
+    const todo = page.locator("a[data-todo-msg]:visible").first();
+    if (await todo.count()) {
+      const msg = await todo.getAttribute("data-todo-msg");
+      await todo.click();
+      const toast = await page.locator(".toast").textContent();
+      check("c", page.url() === before && (await page.locator(".toast").isVisible()) && toast.includes(msg), `a placeholder contact link must stay put and toast ${JSON.stringify(msg)} (got ${JSON.stringify(toast)})`);
+    }
     await ctx.close();
   }
 

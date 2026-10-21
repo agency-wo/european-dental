@@ -2,7 +2,7 @@
   "note": "Every value the owner has not confirmed is a TODO string, never a plausible fake. check-placeholders.mjs --launch fails while any remains. The build reads lang and locale per page from languages[], never from here.",
   "name": "European Dental",
   "origin": "TODO-ORIGIN",
-  "productionOrigin": "TODO-DOMAIN",
+  "productionOrigin": "https://europeandental.com",
   "env": "preview",
   "noindex": true,
   "copyrightYear": 2026,
@@ -35,7 +35,7 @@
       "e164": "+355684425581"
     }
   ],
-  "whatsapp": "TODO-WHATSAPP",
+  "whatsapp": "+355684425581",
   "email": "TODO-EMAIL",
   "web3formsKey": "TODO-WEB3FORMS-KEY",
   "address": "TODO-ADDRESS",
