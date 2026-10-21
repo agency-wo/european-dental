@@ -8,5 +8,11 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
+  // the workers.dev preview stays on until launch, when this turns false
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "dentaleuropean.com", "custom_domain": true },
+    { "pattern": "www.dentaleuropean.com", "custom_domain": true }
+  ],
   "observability": { "enabled": true }
 }

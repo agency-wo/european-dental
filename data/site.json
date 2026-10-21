@@ -1,7 +1,7 @@
 {
   "note": "Every value the owner has not confirmed is a TODO string, never a plausible fake. check-placeholders.mjs --launch fails while any remains. The build reads lang and locale per page from languages[], never from here.",
   "name": "European Dental",
-  "origin": "TODO-ORIGIN",
+  "origin": "https://dentaleuropean.com",
   "productionOrigin": "https://dentaleuropean.com",
   "env": "preview",
   "noindex": true,
