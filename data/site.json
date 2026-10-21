@@ -31,12 +31,8 @@
   ],
   "phones": [
     {
-      "display": "TODO-PHONE-1",
-      "e164": "TODO-PHONE-1"
-    },
-    {
-      "display": "TODO-PHONE-2",
-      "e164": "TODO-PHONE-2"
+      "display": "+355 68 442 5581",
+      "e164": "+355684425581"
     }
   ],
   "whatsapp": "TODO-WHATSAPP",
