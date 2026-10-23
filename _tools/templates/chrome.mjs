@@ -174,6 +174,12 @@ ${NAV.map(([id, key]) => `        <li><a href="${ctx.route(id)}"${current(id)}>$
 function footer(ctx, p) {
   const { site, esc, t } = ctx;
   const phones = site.phones.map((_, i) => `<li>${link(ctx, "phone", { arg: i, cls: "footer-link", inner: `${ICON.phone}<span>${esc(site.phones[i].display)}</span>` })}</li>`).join("\n          ");
+  /* The studio credit is the MarketingPro lockup, not its name set in type. Three rungs because the
+     mark is small and a wordmark is the first thing to go soft on a dense screen; the widths are the
+     artwork's own, so none of them is ever scaled up. The alt is the name, which is what the image
+     says: the sentence in front of it is a separate string and does not repeat it. */
+  const creditRung = (w) => ctx.asset(`/assets/brand/marketingpro-credit-${w}.png`);
+  const credit = `<img src="${creditRung(100)}" srcset="${creditRung(100)} 1x, ${creditRung(200)} 2x, ${creditRung(300)} 3x" width="100" height="23" alt="MarketingPro" loading="lazy" decoding="async">`;
   return `<footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
@@ -208,7 +214,7 @@ ${NAV.map(([id, key]) => `        <li><a class="footer-link" href="${ctx.route(i
   </div>
   <div class="container footer-base">
     <p>© ${site.copyrightYear} ${esc(site.name)}. ${esc(t("footer.rights"))}</p>
-    <p class="footer-credit">${esc(t("footer.credit"))} <a href="https://www.marketingpro-agency.com/" rel="noopener">MarketingPro</a></p>
+    <p class="footer-credit">${esc(t("footer.credit"))} <a href="https://www.marketingpro-agency.com/" target="_blank" rel="noopener">${credit}</a></p>
     ${langSwitch(ctx, p, "footer")}
   </div>
 </footer>

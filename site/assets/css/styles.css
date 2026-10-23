@@ -243,10 +243,22 @@ h1:lang(de), h2:lang(de), h3:lang(de) { hyphens: auto; -webkit-hyphens: auto; }
 /* The agency credit. .footer-link cannot be reused: these sit in a list where
    position says they are links, and this one sits mid-sentence, so it carries
    the underline itself. Without a colour it would inherit the browser default
-   blue onto navy, which is both off-brand and hard to read. */
+   blue onto navy, which is both off-brand and hard to read.
+   :not(:has(img)) because the credit is a logo today, and a lockup does not take
+   an underline: an image is not "distinguishable by colour alone", which is the
+   case the underline was there to answer. The rule stays armed for the day the
+   credit goes back to being text, which is when it was actually needed. */
 .footer-credit { margin: 0; }
-.footer-credit a { color: var(--c-white); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(220, 230, 237, 0.45); }
-.footer-credit a:hover { color: var(--c-champagne); text-decoration-color: currentColor; }
+.footer-credit a:not(:has(img)) { color: var(--c-white); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(220, 230, 237, 0.45); }
+.footer-credit a:not(:has(img)):hover { color: var(--c-champagne); text-decoration-color: currentColor; }
+/* The lockup aligns to the text of the line rather than sitting on the baseline,
+   where an inline image leaves the descender gap under it. */
+.footer-credit a:has(img) { display: inline-flex; align-items: center; vertical-align: middle; }
+/* An explicit ratio because the three rungs do not share one: 100x23 and 200x46
+   are 4.3478, but 300x68 is 4.4118, each height having been rounded on its own.
+   Without this a 3x screen paints a different height from the one the width and
+   height attributes reserved, and the footer base shifts by a pixel. */
+.footer-credit img { display: block; width: 100px; height: auto; aspect-ratio: 100 / 23; object-fit: contain; }
 .site-footer .lang-switch a { color: var(--c-on-navy-soft); }
 .site-footer .lang-switch a:hover { color: var(--c-navy); background: var(--c-champagne); }
 .site-footer .lang-switch__current { color: var(--c-white); }
