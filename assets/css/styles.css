@@ -240,6 +240,13 @@ h1:lang(de), h2:lang(de), h3:lang(de) { hyphens: auto; -webkit-hyphens: auto; }
 .footer-link:hover { color: var(--c-champagne); }
 .footer-link .icon { color: var(--c-gold); }
 .footer-base { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-block: 20px 28px; border-top: 1px solid rgba(220, 230, 237, 0.2); font-size: 0.9rem; color: var(--c-on-navy-soft); }
+/* The agency credit. .footer-link cannot be reused: these sit in a list where
+   position says they are links, and this one sits mid-sentence, so it carries
+   the underline itself. Without a colour it would inherit the browser default
+   blue onto navy, which is both off-brand and hard to read. */
+.footer-credit { margin: 0; }
+.footer-credit a { color: var(--c-white); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(220, 230, 237, 0.45); }
+.footer-credit a:hover { color: var(--c-champagne); text-decoration-color: currentColor; }
 .site-footer .lang-switch a { color: var(--c-on-navy-soft); }
 .site-footer .lang-switch a:hover { color: var(--c-navy); background: var(--c-champagne); }
 .site-footer .lang-switch__current { color: var(--c-white); }

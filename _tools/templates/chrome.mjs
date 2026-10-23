@@ -208,6 +208,7 @@ ${NAV.map(([id, key]) => `        <li><a class="footer-link" href="${ctx.route(i
   </div>
   <div class="container footer-base">
     <p>© ${site.copyrightYear} ${esc(site.name)}. ${esc(t("footer.rights"))}</p>
+    <p class="footer-credit">${esc(t("footer.credit"))} <a href="https://www.marketingpro-agency.com/" rel="noopener">MarketingPro</a></p>
     ${langSwitch(ctx, p, "footer")}
   </div>
 </footer>
