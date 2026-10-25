@@ -31,14 +31,19 @@ function heroPicture(ctx, slug, o = {}) {
   return { html, preload };
 }
 
-/* The four old hero slides, in the old order. Slide 2 was a 736 px portrait, too small for a banner, and
-   is replaced by the clinician at the X-ray. */
-const SLIDES = ["dental-chair-blue-room-render", "clinician-pointing-panoramic-xray-laptop", "braces-patient-syringe-close-up", "nurse-blood-pressure-older-man"];
-const CARD_IMG = { dental: "dental-chair-blue-room-render", aesthetic: "face-surgical-markings-gloved-hands", hair: "hair-graft-preparation" };
-const SERVICE_IMG = { dental: "dentist-loupes-led-lamp-patient", aesthetic: "face-surgical-markings-gloved-hands", hair: "hair-graft-preparation" };
-const TREATMENT_ROUTE = { dental: "dental", aesthetic: "aesthetic", hair: "hair" };
-/* The old gallery: one large photograph and five small ones, same photographs, same order. */
-const GALLERY = ["dental-chair-blue-room-render", "nurse-blood-pressure-older-man", "smile-before-after-full-arch", "dentist-adjusting-lamp-seated-patient", "braces-patient-instrument-close-up-tall", "clinician-examining-woman-lower-face"];
+/* Four hero slides. Two are still the old site's; two changed on 2026-10-24, when the owner sent the
+   clinic's own photographs and marked what to drop. The clinician at the X-ray and the older man having
+   his blood pressure taken are gone from here, from the gallery and from the closing row of the dental
+   page: he crossed the second one out by hand on the screenshot. Their slots now carry surgery and the
+   clinic team, which is a stronger pair anyway because both are the clinic's own. */
+const SLIDES = ["dental-chair-blue-room-render", "two-clinicians-operating-surgical-lights", "braces-patient-syringe-close-up", "clinic-team-eight-blue-scrubs"];
+const CARD_IMG = { dental: "dental-chair-blue-room-render", tourism: "durres-seafront-pavilion-and-apartments" };
+const SERVICE_IMG = { dental: "patients-reviewing-scans-with-clinician", tourism: "durres-seafront-pavilion-and-apartments" };
+const TREATMENT_ROUTE = { dental: "dental", tourism: "tourism" };
+/* One large photograph and five small ones, the old layout. Three of the six were replaced on
+   2026-10-24 with the clinic's own: every member needs a thumb AND a full variant, which is what ruled
+   out the consultation and shade-match photographs here. */
+const GALLERY = ["dental-chair-blue-room-render", "clinic-team-three-black-uniforms", "smile-before-after-full-arch", "veneers-result-white-smile-closeup", "braces-patient-instrument-close-up-tall", "smile-before-after-whitening-split"];
 
 /* The largest JPEG of a projected image: what a gallery link opens without JavaScript. */
 const topJpg = (img) => `${img.base}-${img.widths[img.widths.length - 1]}.jpg`;
@@ -107,7 +112,9 @@ export function home(ctx) {
   const { esc, t } = ctx;
   const c = ctx.copy.home;
   const hero = slider(ctx);
-  const cards = ["dental", "aesthetic", "hair"].map((k) => `      <li class="card" data-reveal>
+  /* The categories come from TREATMENT_ROUTE, not from a list typed again here. There were three
+     such lists before 2026-10-24 and removing two categories meant finding all three. */
+  const cards = Object.keys(TREATMENT_ROUTE).map((k) => `      <li class="card" data-reveal>
         <div class="card__media">${pic(ctx, CARD_IMG[k], "card", { sizes: "(min-width: 1100px) 360px, (min-width: 700px) 30vw, 92vw" })}</div>
         <div class="card__body">
           ${titleLink(ctx, k, c.services.cards[k].title)}
@@ -124,7 +131,7 @@ export function home(ctx) {
   const main = `
 ${hero.html}
 <section class="intro" aria-labelledby="page-h1">
-  <div class="intro__bg">${pic(ctx, "dentist-adjusting-lamp-seated-patient", "bg", { sizes: "(max-width: 700px) 45vw, 100vw", decorative: true, eager: true })}</div>
+  <div class="intro__bg">${pic(ctx, "clinician-reviewing-cbct-scans-monitor", "bg", { sizes: "(max-width: 700px) 45vw, 100vw", decorative: true, eager: true })}</div>
   <div class="container intro__inner entrance">
     <h1 id="page-h1" class="intro__h1">${esc(c.h1)}</h1>
     <p class="statement">${esc(c.statement)}</p>
@@ -196,7 +203,7 @@ ${thumbs}
 export function services(ctx) {
   const { esc, t, site } = ctx;
   const c = ctx.copy.services;
-  const items = ["dental", "aesthetic", "hair"].map((k, i) => `    <li class="service${i % 2 ? " service--flip" : ""}" data-reveal>
+  const items = Object.keys(TREATMENT_ROUTE).map((k, i) => `    <li class="service${i % 2 ? " service--flip" : ""}" data-reveal>
       <div class="service__body">
         ${titleLink(ctx, k, c.cards[k].title, "h2", "service__title")}
         <p>${esc(c.cards[k].text)}</p>
@@ -238,42 +245,30 @@ const TREATMENTS = {
      used: the dental testimonial photos carry the old logo, and the others are excluded third-party images. */
   dental: [
     ["intro", "intro"],
-    ["photos", "", { imgs: ["dentist-treating-patient-cheek-retractor-bw", "dentist-loupes-led-lamp-patient"] }],
+    ["photos", "", { imgs: ["clinician-reviewing-cbct-scans-monitor", "crown-shade-match-gloved-hand"] }],
     ["detail", "restorative"],
     ["photos", "", { imgs: ["implant-bridge-3d-render", "single-implant-crown-cross-section-illustration", "full-arch-six-implants-render", "lower-overdenture-two-implants-render"] }],
     ["detail", "orthodontics", { ice: true, side: ["braces-models-coloured-ligatures", "clear-aligner-held-smile-closeup"] }],
     ["detail", "cosmetic", { side: ["smile-half-white-teeth-closeup", "smile-half-yellowish-teeth-closeup"] }],
     ["detail", "general", { ice: true }],
     ["photos", "", { ice: true, imgs: ["molar-inlay-filling-3d-render", "tooth-extraction-forceps-3d-render", "root-canal-file-molar-cross-section", "tilted-molar-against-neighbour-3d"] }],
-    ["closing", "closing", { below: ["clinician-pointing-panoramic-xray-laptop", "smile-design-guide-lines-overlay", "nurse-blood-pressure-older-man"] }],
+    ["closing", "closing", { below: ["implant-model-cross-section-gloved-hands", "smile-before-after-whitening-split", "patients-reviewing-scans-with-clinician"] }],
     ["testimonials", "testimonials", { sep: true, imgs: [T, T, T, T] }],
     ["form", "form", { sep: true }],
   ],
-  aesthetic: [
+  /* Dental tourism, added 2026-10-24 at the owner's request, replacing aesthetic surgery and hair
+     transplants. It is a treatment page by shape, so it reuses this spec and the treatment() renderer
+     rather than introducing a fourth page type. The Durres photograph sits beside the trip section,
+     which is the paragraph that names the city, the airport and how long a stay runs. */
+  tourism: [
     ["intro", "intro", { lead: true }],
-    ["photos", "", { imgs: ["nose-profiles-split-mono-colour", T] }],
-    ["detail", "rhinoplasty"],
-    ["photos", "", { imgs: ["woman-profile-yellow-backdrop", "gloved-hand-marker-on-nose", "woman-nose-lips-profile-closeup"] }],
-    ["detail", "septoplasty", { ice: true, below: ["nose-bridge-profile-diptych-arrows", "nasal-speculum-exam-surgical-cap", "nose-bridge-upturned-diptych-arrows"] }],
-    ["detail", "otoplasty", { below: ["otoplasty-rear-view-before-after-brown-hair", "otoplasty-ear-closeup-before-after-stubble", "otoplasty-ear-profile-before-after-black-background"] }],
-    ["why", "why", { ice: true }],
-    ["testimonials", "testimonials", { imgs: ["nose-profiles-split-mono-colour", "rhinoplasty-profile-before-after-dark-backdrop", T, "otoplasty-ear-closeup-before-after-stubble"] }],
+    ["photos", "", { imgs: ["two-clinicians-operating-surgical-lights", "patients-reviewing-scans-with-clinician"] }],
+    ["detail", "plan"],
+    ["detail", "trip", { ice: true, side: ["durres-seafront-pavilion-and-apartments"] }],
+    ["detail", "quality", { below: ["crown-shade-match-gloved-hand", "implant-model-cross-section-gloved-hands"] }],
+    ["detail", "costs", { ice: true }],
+    ["why", "why"],
     ["form", "form", { sep: true }],
-  ],
-  hair: [
-    ["intro", "intro", { lead: true }],
-    ["photos", "", { imgs: ["hair-transplant-hairline-marking-gloved-hands", "hair-transplant-front-view-before-after-bearded-man"] }],
-    ["detail", "fue"],
-    ["detail", "dhi"],
-    ["photos", "", { imgs: ["hair-transplant-young-man-hands-on-head-before-after", "hair-transplant-scalp-grafts-and-regrowth-top-view", "hair-transplant-temple-hairline-side-before-after"] }],
-    ["detail", "aftercare", { ice: true, below: ["scalp-exam-handheld-scope-monitor", "hair-transplant-marking-scalp-blue-marker"], narrow: true }],
-    ["detail", "who"],
-    ["why", "why", { ice: true }],
-    ["testimonials", "testimonials", { imgs: ["hair-transplant-scalp-grafts-and-regrowth-top-view", T, "hair-transplant-temple-hairline-side-before-after", T] }],
-    ["videos", "videos", { sep: true, files: [
-      { src: "testimonial-hair-1", w: 720, h: 1280 },
-      { src: "testimonial-hair-2", w: 720, h: 1280 },
-    ] }],
   ],
 };
 const STAR = '<svg viewBox="0 0 20 20" width="16" height="16" focusable="false"><path d="M10 1.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.9z"/></svg>';

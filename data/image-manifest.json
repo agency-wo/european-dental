@@ -178,63 +178,17 @@
    ]
   },
   {
-   "slug": "clinician-examining-woman-lower-face--full",
-   "image": "clinician-examining-woman-lower-face",
-   "variant": "full",
+   "slug": "clinic-team-eight-blue-scrubs--card",
+   "image": "clinic-team-eight-blue-scrubs",
+   "variant": "card",
    "widths": [
+    360,
     480,
     720,
-    960,
-    1280,
-    1600
+    960
    ],
-   "w": 1600,
-   "h": 1600,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.55,
-    0.62
-   ]
-  },
-  {
-   "slug": "clinician-examining-woman-lower-face--thumb",
-   "image": "clinician-examining-woman-lower-face",
-   "variant": "thumb",
-   "widths": [
-    160,
-    240,
-    320,
-    480
-   ],
-   "w": 480,
-   "h": 480,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.55,
-    0.62
-   ]
-  },
-  {
-   "slug": "clinician-pointing-panoramic-xray-laptop--full",
-   "image": "clinician-pointing-panoramic-xray-laptop",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1280,
-    1600
-   ],
-   "w": 1600,
-   "h": 1600,
+   "w": 960,
+   "h": 720,
    "formats": [
     "avif",
     "webp",
@@ -242,21 +196,44 @@
    ],
    "focal": [
     0.5,
-    0.45
+    0.42
    ]
   },
   {
-   "slug": "clinician-pointing-panoramic-xray-laptop--hero",
-   "image": "clinician-pointing-panoramic-xray-laptop",
+   "slug": "clinic-team-eight-blue-scrubs--full",
+   "image": "clinic-team-eight-blue-scrubs",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1280,
+    1449
+   ],
+   "w": 1449,
+   "h": 1085,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.42
+   ]
+  },
+  {
+   "slug": "clinic-team-eight-blue-scrubs--hero",
+   "image": "clinic-team-eight-blue-scrubs",
    "variant": "hero",
    "widths": [
     640,
     960,
     1280,
-    1600
+    1449
    ],
-   "w": 1600,
-   "h": 700,
+   "w": 1449,
+   "h": 634,
    "formats": [
     "avif",
     "webp",
@@ -264,12 +241,12 @@
    ],
    "focal": [
     0.5,
-    0.45
+    0.42
    ]
   },
   {
-   "slug": "clinician-pointing-panoramic-xray-laptop--hero-m",
-   "image": "clinician-pointing-panoramic-xray-laptop",
+   "slug": "clinic-team-eight-blue-scrubs--hero-m",
+   "image": "clinic-team-eight-blue-scrubs",
    "variant": "hero-m",
    "widths": [
     480,
@@ -286,6 +263,184 @@
    ],
    "focal": [
     0.5,
+    0.42
+   ]
+  },
+  {
+   "slug": "clinic-team-three-black-uniforms--card",
+   "image": "clinic-team-three-black-uniforms",
+   "variant": "card",
+   "widths": [
+    360,
+    480,
+    720,
+    960
+   ],
+   "w": 960,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.38
+   ]
+  },
+  {
+   "slug": "clinic-team-three-black-uniforms--full",
+   "image": "clinic-team-three-black-uniforms",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1133
+   ],
+   "w": 1133,
+   "h": 1388,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.38
+   ]
+  },
+  {
+   "slug": "clinic-team-three-black-uniforms--thumb",
+   "image": "clinic-team-three-black-uniforms",
+   "variant": "thumb",
+   "widths": [
+    160,
+    240,
+    320,
+    480
+   ],
+   "w": 480,
+   "h": 480,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.38
+   ]
+  },
+  {
+   "slug": "clinician-reviewing-cbct-scans-monitor--bg",
+   "image": "clinician-reviewing-cbct-scans-monitor",
+   "variant": "bg",
+   "widths": [
+    640,
+    960,
+    1280,
+    1536
+   ],
+   "w": 1536,
+   "h": 864,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.55,
+    0.5
+   ]
+  },
+  {
+   "slug": "clinician-reviewing-cbct-scans-monitor--card",
+   "image": "clinician-reviewing-cbct-scans-monitor",
+   "variant": "card",
+   "widths": [
+    360,
+    480,
+    720,
+    960
+   ],
+   "w": 960,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.55,
+    0.5
+   ]
+  },
+  {
+   "slug": "clinician-reviewing-cbct-scans-monitor--full",
+   "image": "clinician-reviewing-cbct-scans-monitor",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1280,
+    1536
+   ],
+   "w": 1536,
+   "h": 1024,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.55,
+    0.5
+   ]
+  },
+  {
+   "slug": "crown-shade-match-gloved-hand--card",
+   "image": "crown-shade-match-gloved-hand",
+   "variant": "card",
+   "widths": [
+    360,
+    480,
+    720,
+    960
+   ],
+   "w": 960,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.62,
+    0.45
+   ]
+  },
+  {
+   "slug": "crown-shade-match-gloved-hand--full",
+   "image": "crown-shade-match-gloved-hand",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1280,
+    1536
+   ],
+   "w": 1536,
+   "h": 1024,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.62,
     0.45
    ]
   },
@@ -402,8 +557,30 @@
    ]
   },
   {
-   "slug": "dentist-adjusting-lamp-seated-patient--bg",
-   "image": "dentist-adjusting-lamp-seated-patient",
+   "slug": "durres-seafront-pavilion-and-apartments--banner",
+   "image": "durres-seafront-pavilion-and-apartments",
+   "variant": "banner",
+   "widths": [
+    480,
+    720,
+    960,
+    1280
+   ],
+   "w": 1280,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.62,
+    0.68
+   ]
+  },
+  {
+   "slug": "durres-seafront-pavilion-and-apartments--bg",
+   "image": "durres-seafront-pavilion-and-apartments",
    "variant": "bg",
    "widths": [
     640,
@@ -419,162 +596,53 @@
     "jpg"
    ],
    "focal": [
-    0.45,
-    0.45
+    0.62,
+    0.68
    ]
   },
   {
-   "slug": "dentist-adjusting-lamp-seated-patient--full",
-   "image": "dentist-adjusting-lamp-seated-patient",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1280,
-    1600
-   ],
-   "w": 1600,
-   "h": 1600,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.45,
-    0.45
-   ]
-  },
-  {
-   "slug": "dentist-adjusting-lamp-seated-patient--thumb",
-   "image": "dentist-adjusting-lamp-seated-patient",
-   "variant": "thumb",
-   "widths": [
-    160,
-    240,
-    320,
-    480
-   ],
-   "w": 480,
-   "h": 480,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.45,
-    0.45
-   ]
-  },
-  {
-   "slug": "dentist-loupes-led-lamp-patient--banner",
-   "image": "dentist-loupes-led-lamp-patient",
-   "variant": "banner",
-   "widths": [
-    480,
-    720,
-    960,
-    1200
-   ],
-   "w": 1200,
-   "h": 675,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.55,
-    0.5
-   ]
-  },
-  {
-   "slug": "dentist-loupes-led-lamp-patient--full",
-   "image": "dentist-loupes-led-lamp-patient",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1200
-   ],
-   "w": 1200,
-   "h": 1600,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.55,
-    0.5
-   ]
-  },
-  {
-   "slug": "dentist-treating-patient-cheek-retractor-bw--full",
-   "image": "dentist-treating-patient-cheek-retractor-bw",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1280,
-    1600
-   ],
-   "w": 1600,
-   "h": 1600,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.47,
-    0.55
-   ]
-  },
-  {
-   "slug": "face-surgical-markings-gloved-hands--banner",
-   "image": "face-surgical-markings-gloved-hands",
-   "variant": "banner",
-   "widths": [
-    480,
-    720,
-    830
-   ],
-   "w": 830,
-   "h": 467,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.42
-   ]
-  },
-  {
-   "slug": "face-surgical-markings-gloved-hands--card",
-   "image": "face-surgical-markings-gloved-hands",
+   "slug": "durres-seafront-pavilion-and-apartments--card",
+   "image": "durres-seafront-pavilion-and-apartments",
    "variant": "card",
    "widths": [
     360,
     480,
-    644
+    720,
+    960
    ],
-   "w": 644,
-   "h": 483,
+   "w": 960,
+   "h": 720,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.5,
-    0.42
+    0.62,
+    0.68
+   ]
+  },
+  {
+   "slug": "durres-seafront-pavilion-and-apartments--full",
+   "image": "durres-seafront-pavilion-and-apartments",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1280,
+    1600
+   ],
+   "w": 1600,
+   "h": 1064,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.62,
+    0.68
    ]
   },
   {
@@ -598,198 +666,6 @@
    ]
   },
   {
-   "slug": "gloved-hand-marker-on-nose--full",
-   "image": "gloved-hand-marker-on-nose",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1262
-   ],
-   "w": 1262,
-   "h": 835,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.52,
-    0.38
-   ]
-  },
-  {
-   "slug": "hair-graft-preparation--banner",
-   "image": "hair-graft-preparation",
-   "variant": "banner",
-   "widths": [
-    480,
-    720,
-    960,
-    1280
-   ],
-   "w": 1280,
-   "h": 720,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.42,
-    0.55
-   ]
-  },
-  {
-   "slug": "hair-graft-preparation--card",
-   "image": "hair-graft-preparation",
-   "variant": "card",
-   "widths": [
-    360,
-    480,
-    720,
-    960
-   ],
-   "w": 960,
-   "h": 720,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.42,
-    0.55
-   ]
-  },
-  {
-   "slug": "hair-transplant-front-view-before-after-bearded-man--full",
-   "image": "hair-transplant-front-view-before-after-bearded-man",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1018
-   ],
-   "w": 1018,
-   "h": 852,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.35
-   ]
-  },
-  {
-   "slug": "hair-transplant-hairline-marking-gloved-hands--full",
-   "image": "hair-transplant-hairline-marking-gloved-hands",
-   "variant": "full",
-   "widths": [
-    480,
-    692
-   ],
-   "w": 692,
-   "h": 387,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.62,
-    0.42
-   ]
-  },
-  {
-   "slug": "hair-transplant-marking-scalp-blue-marker--full",
-   "image": "hair-transplant-marking-scalp-blue-marker",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    858
-   ],
-   "w": 858,
-   "h": 501,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.55,
-    0.4
-   ]
-  },
-  {
-   "slug": "hair-transplant-scalp-grafts-and-regrowth-top-view--full",
-   "image": "hair-transplant-scalp-grafts-and-regrowth-top-view",
-   "variant": "full",
-   "widths": [
-    480,
-    677
-   ],
-   "w": 677,
-   "h": 369,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.4
-   ]
-  },
-  {
-   "slug": "hair-transplant-temple-hairline-side-before-after--full",
-   "image": "hair-transplant-temple-hairline-side-before-after",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    825
-   ],
-   "w": 825,
-   "h": 450,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.6
-   ]
-  },
-  {
-   "slug": "hair-transplant-young-man-hands-on-head-before-after--full",
-   "image": "hair-transplant-young-man-hands-on-head-before-after",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1000
-   ],
-   "w": 1000,
-   "h": 666,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.4
-   ]
-  },
-  {
    "slug": "implant-bridge-3d-render--full",
    "image": "implant-bridge-3d-render",
    "variant": "full",
@@ -807,6 +683,51 @@
    "focal": [
     0.6,
     0.45
+   ]
+  },
+  {
+   "slug": "implant-model-cross-section-gloved-hands--card",
+   "image": "implant-model-cross-section-gloved-hands",
+   "variant": "card",
+   "widths": [
+    360,
+    480,
+    720,
+    960
+   ],
+   "w": 960,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.55,
+    0.5
+   ]
+  },
+  {
+   "slug": "implant-model-cross-section-gloved-hands--full",
+   "image": "implant-model-cross-section-gloved-hands",
+   "variant": "full",
+   "widths": [
+    480,
+    720,
+    960,
+    1280,
+    1536
+   ],
+   "w": 1536,
+   "h": 1024,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.55,
+    0.5
    ]
   },
   {
@@ -850,147 +771,38 @@
    ]
   },
   {
-   "slug": "nasal-speculum-exam-surgical-cap--full",
-   "image": "nasal-speculum-exam-surgical-cap",
-   "variant": "full",
+   "slug": "patients-reviewing-scans-with-clinician--banner",
+   "image": "patients-reviewing-scans-with-clinician",
+   "variant": "banner",
    "widths": [
     480,
     720,
     960,
-    1200
+    1280
    ],
-   "w": 1200,
-   "h": 844,
+   "w": 1280,
+   "h": 720,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.47,
-    0.45
-   ]
-  },
-  {
-   "slug": "nose-bridge-profile-diptych-arrows--full",
-   "image": "nose-bridge-profile-diptych-arrows",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1200
-   ],
-   "w": 1200,
-   "h": 900,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.4
-   ]
-  },
-  {
-   "slug": "nose-bridge-upturned-diptych-arrows--full",
-   "image": "nose-bridge-upturned-diptych-arrows",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1200
-   ],
-   "w": 1200,
-   "h": 1046,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.4
-   ]
-  },
-  {
-   "slug": "nose-profiles-split-mono-colour--full",
-   "image": "nose-profiles-split-mono-colour",
-   "variant": "full",
-   "widths": [
-    480,
-    658
-   ],
-   "w": 658,
-   "h": 502,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.6
-   ]
-  },
-  {
-   "slug": "nurse-blood-pressure-older-man--full",
-   "image": "nurse-blood-pressure-older-man",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1280,
-    1600
-   ],
-   "w": 1600,
-   "h": 1600,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
+    0.55,
     0.5
    ]
   },
   {
-   "slug": "nurse-blood-pressure-older-man--hero",
-   "image": "nurse-blood-pressure-older-man",
-   "variant": "hero",
+   "slug": "patients-reviewing-scans-with-clinician--bg",
+   "image": "patients-reviewing-scans-with-clinician",
+   "variant": "bg",
    "widths": [
     640,
     960,
     1280,
-    1600
+    1536
    ],
-   "w": 1600,
-   "h": 700,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.5
-   ]
-  },
-  {
-   "slug": "nurse-blood-pressure-older-man--hero-m",
-   "image": "nurse-blood-pressure-older-man",
-   "variant": "hero-m",
-   "widths": [
-    480,
-    720,
-    960,
-    1080
-   ],
-   "w": 1080,
+   "w": 1536,
    "h": 864,
    "formats": [
     "avif",
@@ -998,112 +810,53 @@
     "jpg"
    ],
    "focal": [
-    0.5,
+    0.55,
     0.5
    ]
   },
   {
-   "slug": "nurse-blood-pressure-older-man--thumb",
-   "image": "nurse-blood-pressure-older-man",
-   "variant": "thumb",
+   "slug": "patients-reviewing-scans-with-clinician--card",
+   "image": "patients-reviewing-scans-with-clinician",
+   "variant": "card",
    "widths": [
-    160,
-    240,
-    320,
-    480
+    360,
+    480,
+    720,
+    960
    ],
-   "w": 480,
-   "h": 480,
+   "w": 960,
+   "h": 720,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.5,
+    0.55,
     0.5
    ]
   },
   {
-   "slug": "otoplasty-ear-closeup-before-after-stubble--full",
-   "image": "otoplasty-ear-closeup-before-after-stubble",
+   "slug": "patients-reviewing-scans-with-clinician--full",
+   "image": "patients-reviewing-scans-with-clinician",
    "variant": "full",
    "widths": [
     480,
     720,
-    843
+    960,
+    1280,
+    1536
    ],
-   "w": 843,
-   "h": 650,
+   "w": 1536,
+   "h": 1024,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.5,
-    0.45
-   ]
-  },
-  {
-   "slug": "otoplasty-ear-profile-before-after-black-background--full",
-   "image": "otoplasty-ear-profile-before-after-black-background",
-   "variant": "full",
-   "widths": [
-    480,
-    637
-   ],
-   "w": 637,
-   "h": 398,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
+    0.55,
     0.5
-   ]
-  },
-  {
-   "slug": "otoplasty-rear-view-before-after-brown-hair--full",
-   "image": "otoplasty-rear-view-before-after-brown-hair",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    842
-   ],
-   "w": 842,
-   "h": 550,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.5
-   ]
-  },
-  {
-   "slug": "rhinoplasty-profile-before-after-dark-backdrop--full",
-   "image": "rhinoplasty-profile-before-after-dark-backdrop",
-   "variant": "full",
-   "widths": [
-    480,
-    571
-   ],
-   "w": 571,
-   "h": 518,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.5,
-    0.45
    ]
   },
   {
@@ -1124,28 +877,6 @@
    "focal": [
     0.45,
     0.45
-   ]
-  },
-  {
-   "slug": "scalp-exam-handheld-scope-monitor--full",
-   "image": "scalp-exam-handheld-scope-monitor",
-   "variant": "full",
-   "widths": [
-    480,
-    720,
-    960,
-    1241
-   ],
-   "w": 1241,
-   "h": 802,
-   "formats": [
-    "avif",
-    "webp",
-    "jpg"
-   ],
-   "focal": [
-    0.62,
-    0.35
    ]
   },
   {
@@ -1214,17 +945,16 @@
    ]
   },
   {
-   "slug": "smile-design-guide-lines-overlay--full",
-   "image": "smile-design-guide-lines-overlay",
+   "slug": "smile-before-after-whitening-split--full",
+   "image": "smile-before-after-whitening-split",
    "variant": "full",
    "widths": [
     480,
     720,
-    960,
-    1057
+    946
    ],
-   "w": 1057,
-   "h": 702,
+   "w": 946,
+   "h": 888,
    "formats": [
     "avif",
     "webp",
@@ -1232,7 +962,29 @@
    ],
    "focal": [
     0.5,
-    0.45
+    0.5
+   ]
+  },
+  {
+   "slug": "smile-before-after-whitening-split--thumb",
+   "image": "smile-before-after-whitening-split",
+   "variant": "thumb",
+   "widths": [
+    160,
+    240,
+    320,
+    480
+   ],
+   "w": 480,
+   "h": 480,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.5
    ]
   },
   {
@@ -1314,43 +1066,137 @@
    ]
   },
   {
-   "slug": "woman-nose-lips-profile-closeup--full",
-   "image": "woman-nose-lips-profile-closeup",
+   "slug": "two-clinicians-operating-surgical-lights--full",
+   "image": "two-clinicians-operating-surgical-lights",
    "variant": "full",
    "widths": [
     480,
-    556
+    720,
+    960,
+    1280,
+    1536
    ],
-   "w": 556,
-   "h": 572,
+   "w": 1536,
+   "h": 1024,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.3,
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "slug": "two-clinicians-operating-surgical-lights--hero",
+   "image": "two-clinicians-operating-surgical-lights",
+   "variant": "hero",
+   "widths": [
+    640,
+    960,
+    1280,
+    1536
+   ],
+   "w": 1536,
+   "h": 672,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "slug": "two-clinicians-operating-surgical-lights--hero-m",
+   "image": "two-clinicians-operating-surgical-lights",
+   "variant": "hero-m",
+   "widths": [
+    480,
+    720,
+    960,
+    1080
+   ],
+   "w": 1080,
+   "h": 864,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.5
+   ]
+  },
+  {
+   "slug": "veneers-result-white-smile-closeup--card",
+   "image": "veneers-result-white-smile-closeup",
+   "variant": "card",
+   "widths": [
+    360,
+    480,
+    720,
+    960
+   ],
+   "w": 960,
+   "h": 720,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
     0.45
    ]
   },
   {
-   "slug": "woman-profile-yellow-backdrop--full",
-   "image": "woman-profile-yellow-backdrop",
+   "slug": "veneers-result-white-smile-closeup--full",
+   "image": "veneers-result-white-smile-closeup",
    "variant": "full",
    "widths": [
     480,
-    571
+    720,
+    960,
+    1280,
+    1536
    ],
-   "w": 571,
-   "h": 582,
+   "w": 1536,
+   "h": 1024,
    "formats": [
     "avif",
     "webp",
     "jpg"
    ],
    "focal": [
-    0.7,
-    0.35
+    0.5,
+    0.45
+   ]
+  },
+  {
+   "slug": "veneers-result-white-smile-closeup--thumb",
+   "image": "veneers-result-white-smile-closeup",
+   "variant": "thumb",
+   "widths": [
+    160,
+    240,
+    320,
+    480
+   ],
+   "w": 480,
+   "h": 480,
+   "formats": [
+    "avif",
+    "webp",
+    "jpg"
+   ],
+   "focal": [
+    0.5,
+    0.45
    ]
   }
  ]

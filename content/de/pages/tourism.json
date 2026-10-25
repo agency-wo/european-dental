@@ -1,0 +1,101 @@
+{
+ "title": "Zahnbehandlung in Albanien: So läuft die Reise | European Dental",
+ "description": "Was eine Zahnreise nach Durrës bedeutet: ein schriftlicher Plan nach Ihrem Röntgenbild, wie viele Termine nötig sind, wo Sie wohnen und wie der Preis zustande kommt.",
+ "h1": "Zahntourismus in Albanien",
+ "intro": {
+  "h2": "Behandlung in Durrës, von zu Hause aus geplant",
+  "p": [
+   "Wir vermitteln Patientinnen und Patienten an zertifizierte Kliniken in Durrës an der albanischen Küste und organisieren das Praktische der Reise. Die meisten, die uns schreiben, leben in Deutschland, Italien oder der Schweiz und haben für dieselbe Arbeit bereits einen Kostenvoranschlag zu Hause.",
+   "Entschieden wird nichts, bevor Sie etwas zum Lesen haben. Der erste Schritt ist ein schriftlicher Plan, und der Vergleich bleibt Ihre Sache."
+  ]
+ },
+ "plan": {
+  "h2": "Es beginnt mit einem Röntgenbild",
+  "h3": "Ein schriftlicher Plan, bevor Sie irgendetwas buchen",
+  "p": [
+   "Senden Sie uns ein aktuelles Panorama-Röntgenbild und einige Fotos Ihrer Zähne. Wenn Sie kein Röntgenbild haben: jede Zahnarztpraxis kann eines anfertigen, viele schicken es noch am selben Tag per E-Mail.",
+   "Eine Zahnärztin oder ein Zahnarzt in Durrës liest es und schreibt zurück, welche Arbeit nötig wäre, in welcher Reihenfolge und was sie kosten würde. Dieses Dokument gehört Ihnen, und Sie können es gern Ihrer eigenen Praxis zur Zweitmeinung vorlegen."
+  ],
+  "items": [
+   "Ein Panorama-Röntgenbild, dazu Fotos, falls vorhanden",
+   "Ein schriftlicher Behandlungsplan, Schritt für Schritt",
+   "Die Zahl der Termine und die Länge der jeweiligen Aufenthalte",
+   "Der Preis für den Plan, so wie er geschrieben steht"
+  ],
+  "after": [
+   "In diesem Schritt wird keine Anzahlung verlangt und kein Termin reserviert."
+  ]
+ },
+ "trip": {
+  "h2": "Die Reise und der Aufenthalt",
+  "h3": "Durrës, und wie lange Sie dort sind",
+  "p": [
+   "Durrës liegt an der Küste, etwa vierzig Autominuten vom Flughafen Tirana, den Direktflüge aus mehreren deutschen und italienischen Städten anfliegen. Die Klinik liegt in der Stadt selbst.",
+   "Implantate brauchen meist zwei Reisen mit einer Einheilphase dazwischen, häufig drei bis sechs Monate. Kronen, Veneers und Füllungen sind in der Regel eine Reise. Ihr Plan sagt, was für Sie gilt, bevor Sie einen Flug buchen."
+  ],
+  "items": [
+   "Transfers zwischen dem Flughafen Tirana und der Klinik",
+   "Hilfe bei der Zimmersuche in Kliniknhähe",
+   "Termine so gebündelt, dass der Aufenthalt so kurz bleibt, wie die Arbeit es zulässt",
+   "Eine Begleitung, die Ihre Sprache spricht, bei den Terminen"
+  ],
+  "after": [
+   "Die Flüge bleiben bei Ihnen, Airline, Daten und Preis wählen also Sie."
+  ]
+ },
+ "quality": {
+  "h2": "Wer Sie behandelt, und womit",
+  "h3": "Die Materialien stehen im Plan",
+  "p": [
+   "Der Plan nennt das Implantatsystem und die Keramik, statt sie hochwertig zu nennen. Es sind dieselben Namen, die deutsche und italienische Praxen verwenden, und Sie können beide vor der Reise nachschlagen.",
+   "Die Klinik erstellt ihre 3D-Aufnahmen im Haus. Erst das erlaubt einen Plan aus Messwerten statt aus einer Schätzung."
+  ],
+  "items": [
+   "Das Implantatsystem und die Keramik, schriftlich benannt",
+   "3D-Bildgebung, in der Klinik aufgenommen",
+   "Der Name der Zahnärztin oder des Zahnarztes, die oder der die Arbeit ausführt",
+   "Schriftliche Nachsorgehinweise und, wo es eine gibt, die Garantiebedingungen"
+  ],
+  "after": [
+   "Fragen Sie nach allem aus dieser Liste, was in Ihrem Plan noch nicht steht."
+  ]
+ },
+ "costs": {
+  "h2": "Wie der Preis zustande kommt",
+  "h3": "Pro Plan, nicht pro Preisliste",
+  "p": [
+   "Auf dieser Seite steht keine Preisliste. Eine einzelne Krone und eine ganze Versorgung sind nicht dieselbe Arbeit, und ein Kiefer, der zuerst vorbereitet werden muss, auch nicht.",
+   "Der schriftliche Plan trägt einen Preis für die darin beschriebene Arbeit. Findet die Praxis am Tag selbst etwas, das den Plan ändert, wird die Änderung angeboten, bevor sie ausgeführt wird."
+  ],
+  "items": [
+   "Ein Preis für den Plan, so wie er geschrieben steht",
+   "Jede Änderung vor der Arbeit angeboten, nicht danach",
+   "Was enthalten ist und was nicht, steht im Dokument"
+  ],
+  "after": [
+   "Ob sich die Reise lohnt, ist ein Vergleich, den nur Sie anstellen können, mit beiden Kostenvoranschlägen vor sich."
+  ]
+ },
+ "why": {
+  "h2": "Was wir tun, und was nicht",
+  "items": [
+   "Wir organisieren den Plan, die Termine und die Transfers",
+   "Wir dolmetschen für Sie bei den Terminen",
+   "Wir nennen keinen Preis, bevor eine Praxis Ihr Röntgenbild gelesen hat",
+   "Wir versprechen kein Ergebnis, und keine ehrliche Klinik tut das",
+   "Wir sagen es, wenn die Antwort lautet, dass Sie zu Hause besser aufgehoben sind"
+  ],
+  "h3": "Beginnen Sie mit dem Röntgenbild",
+  "p": [
+   "Schicken Sie es, und wir kommen mit einem Plan und einem Preis zurück. Überzeugt der Plan Sie nicht, haben Sie nichts verloren außer einer E-Mail."
+  ],
+  "cta": "Röntgenbild senden",
+  "after": [
+   "Wir antworten auf Deutsch, Italienisch, Englisch und Albanisch."
+  ]
+ },
+ "form": {
+  "h2": "Kontakt",
+  "subject": "Anfrage von der Seite Zahntourismus (Deutsch)"
+ }
+}

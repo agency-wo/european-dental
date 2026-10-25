@@ -1,144 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://dentaleuropean.com/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/leistungen/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/leistungen/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/leistungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/servizi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/services/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/services/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/zahnbehandlungen/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/zahnbehandlungen/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahnbehandlungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trattamenti-dentali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-treatments/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-treatments/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/aesthetische-chirurgie/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/aesthetische-chirurgie/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/chirurgia-estetica/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
+  <url><loc>https://dentaleuropean.com/zahntourismus/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahntourismus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/turismo-dentale/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/haartransplantation/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/haartransplantation/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trapianto-capelli/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/hair-transplant/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/hair-transplant/"/>
-  </url>
-  <url><loc>https://dentaleuropean.com/kontakt/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/kontakt/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/contatti/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/contact/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/datenschutz/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/datenschutz/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/datenschutz/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/privacy/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/impressum/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/impressum/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/impressum/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/note-legali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/legal-notice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/legal-notice/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/servizi/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/servizi/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/leistungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/servizi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/services/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/services/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/trattamenti-dentali/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/trattamenti-dentali/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahnbehandlungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trattamenti-dentali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-treatments/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-treatments/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/chirurgia-estetica/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/aesthetische-chirurgie/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/chirurgia-estetica/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
+  <url><loc>https://dentaleuropean.com/it/turismo-dentale/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahntourismus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/turismo-dentale/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/trapianto-capelli/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/haartransplantation/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trapianto-capelli/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/hair-transplant/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/hair-transplant/"/>
-  </url>
-  <url><loc>https://dentaleuropean.com/it/contatti/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/contatti/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/contatti/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/contact/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/privacy/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/privacy/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/datenschutz/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/privacy/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/it/note-legali/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/it/note-legali/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/impressum/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/note-legali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/legal-notice/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/legal-notice/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/services/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/services/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/leistungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/servizi/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/services/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/services/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/dental-treatments/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/dental-treatments/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahnbehandlungen/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trattamenti-dentali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-treatments/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-treatments/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/aesthetic-surgery/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/aesthetische-chirurgie/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/chirurgia-estetica/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/aesthetic-surgery/"/>
+  <url><loc>https://dentaleuropean.com/en/dental-tourism/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/zahntourismus/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/turismo-dentale/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/hair-transplant/</loc><lastmod>2026-10-23</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/haartransplantation/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/trapianto-capelli/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/hair-transplant/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/hair-transplant/"/>
-  </url>
-  <url><loc>https://dentaleuropean.com/en/contact/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/contact/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/contatti/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/contact/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/contact/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/privacy/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/privacy/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/datenschutz/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/privacy/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/privacy/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/privacy/"/>
   </url>
-  <url><loc>https://dentaleuropean.com/en/legal-notice/</loc><lastmod>2026-10-23</lastmod>
+  <url><loc>https://dentaleuropean.com/en/legal-notice/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/impressum/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/note-legali/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/legal-notice/"/>

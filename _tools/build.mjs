@@ -75,7 +75,7 @@ problems.push(...routes.problems);
 
 /* The copy file for a language, and the English one when it has none. A fallback is recorded, never
    swallowed, and a language marked complete may have none (the check is below). */
-const COPY_FILES = ["home", "services", "dental", "aesthetic", "hair", "contact", "privacy", "imprint", "notfound", "media"];
+const COPY_FILES = ["home", "services", "dental", "tourism", "contact", "privacy", "imprint", "notfound", "media"];
 const langPath = (lang, rel) => (lang === "en" ? rel
   : rel.replace(/^i18n\/en\.json$/, `i18n/${lang}.json`).replace(/^content\/en\//, `content/${lang}/`));
 const fellBack = new Map();
@@ -164,8 +164,7 @@ function renderLanguage(L, c) {
     ["home", () => pages.home(ctx)],
     ["services", () => pages.services(ctx)],
     ["dental", () => pages.treatment(ctx, "dental")],
-    ["aesthetic", () => pages.treatment(ctx, "aesthetic")],
-    ["hair", () => pages.treatment(ctx, "hair")],
+    ["tourism", () => pages.treatment(ctx, "tourism")],
     ["contact", () => pages.contactPage(ctx)],
     ["privacy", () => pages.privacy(ctx)],
     ...(lang === DEFAULT_LANG.code ? [["notFound", () => pages.notFound(ctx)]] : []),

@@ -142,7 +142,7 @@ function langSwitch(ctx, p, where) {
 
 const NAV = [["home", "nav.home"], ["services", "nav.services"], ["contact", "nav.contact"]];
 /* routes whose pages keep a nav item marked as current */
-const SECTIONS = { services: ["dental", "aesthetic", "hair"] };
+const SECTIONS = { services: ["dental", "tourism"] };
 
 function logo(ctx, variant, sizes) {
   const b = ctx.brand.lockup;

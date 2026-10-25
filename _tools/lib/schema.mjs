@@ -48,7 +48,13 @@ export function validateImages(cat, variantNames) {
     if (seen.has(i.slug)) p.push(`${at}: duplicate slug`);
     seen.add(i.slug);
     if (!/^originals\//.test(i.src || "")) p.push(`${at}: src must be a committed master under originals/`);
-    if (!["old-site", "stock"].includes(i.origin)) p.push(`${at}: origin must be old-site or stock`);
+    /* "owner" since 2026-10-24: photographs the clinic sent us. A third origin and not a relabelling of
+       the other two, because origin decides what else has to be true. A stock image must have a
+       credits.json entry and the build fails without one, which is right for a licensed photograph and
+       wrong for the client's own. An old-site image came off the CDN we copied. The clinic's own files
+       are neither, and calling them stock would put a credit on the Impressum for a photograph nobody
+       licensed. What they DO need is a rights record, which _owner/images-rights.json carries. */
+    if (!["old-site", "stock", "owner"].includes(i.origin)) p.push(`${at}: origin must be old-site, stock or owner`);
     if (!Array.isArray(i.focal) || i.focal.length !== 2 || i.focal.some((v) => typeof v !== "number" || v < 0 || v > 1)) p.push(`${at}: focal must be [x, y] between 0 and 1`);
     for (const v of i.variants || []) if (!variantNames.includes(v)) p.push(`${at}: unknown variant ${v}`);
   }
