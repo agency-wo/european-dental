@@ -1,0 +1,70 @@
+# Deploy the Worker that serves dentaleuropean.com, on a push to main.
+#
+# WHY THIS EXISTS RATHER THAN CLOUDFLARE'S OWN BUILDS. The plan was Workers Builds, connected once in
+# the dashboard, after which a push deploys. That connection cannot be made: the Cloudflare account is
+# MarketingPro's, the Cloudflare GitHub App is installed on the marketingproagency2025-del GitHub
+# account, and this repository belongs to agency-wo. GitHub's install flow only ever offers the account
+# you are signed in as, so the two never meet. Cloudflare's own answer to exactly this case is the
+# scoped API token on the Worker's Builds settings page, which is what this uses.
+#
+# Until that token is set as CLOUDFLARE_API_TOKEN, this workflow SKIPS rather than fails. A red tick on
+# every push would say the build is broken when the truth is that a credential has not arrived yet, and
+# a gate that is red for a reason nobody can fix stops being read.
+#
+# It does not build the site. site/ is committed and wrangler.jsonc serves it as assets, so there is
+# nothing to compile; gates.yml already proves the committed output is what the sources produce, and
+# this workflow runs the same proof before it uploads anything.
+#
+# Never run `wrangler deploy` on the development machine. Its login is a different Cloudflare account
+# and a local deploy there creates a stray Worker, which has happened on another project in this
+# workspace.
+name: deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Is the deploy credential present
+        id: token
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "present=no" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLOUDFLARE_API_TOKEN is not set, so nothing was deployed. Create the token on the Worker's Builds settings page in Cloudflare and add it as a repository secret."
+          else
+            echo "present=yes" >> "$GITHUB_OUTPUT"
+          fi
+
+      # The same check gates.yml makes. Deploying output that its own sources would not produce is the
+      # one way this workflow could put something on the domain that nobody reviewed.
+      - name: The committed site is what its sources build
+        if: steps.token.outputs.present == 'yes'
+        run: node _tools/build.mjs --check
+
+      - name: Deploy
+        if: steps.token.outputs.present == 'yes'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npx --yes wrangler@4 deploy
+
+      - name: What is live now
+        if: steps.token.outputs.present == 'yes'
+        run: |
+          echo "Deployed. The domain stays noindex and robots.txt stays Disallow until launch:"
+          echo "  https://dentaleuropean.com/"
