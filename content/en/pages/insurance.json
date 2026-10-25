@@ -1,0 +1,83 @@
+{
+ "title": "Dental work abroad: what your insurer pays | European Dental",
+ "description": "Planned dental work abroad sits outside GHIC and EHIC. What your own system pays varies, so here is what to ask it, and what to get in writing, before you travel.",
+ "h1": "Dental work abroad and who pays for it",
+ "intro": {
+  "h2": "Ask before you travel, not after",
+  "p": [
+   "A GHIC or an EHIC covers treatment that becomes medically necessary while you are away, from a state provider. Planned private dental work is not that, and no card covers it. Whether anything comes back to you afterwards depends on the country you are insured in, and the answers differ enough that we will not pretend there is one.",
+   "So this page does the useful part instead: the questions to put to your own insurer, and the documents to have in hand whatever they answer."
+  ]
+ },
+ "before": {
+  "h2": "Before you travel",
+  "h3": "Four questions for your insurer",
+  "p": [
+   "Put them in writing and keep the reply. An answer on the phone is worth nothing to you six months later, and the person who gave it will not remember.",
+   "Two countries we work with every week show how far the answers diverge. Germany requires a treatment and cost plan approved before you travel, and pays nothing without it. Italy requires no approval at all but allows a deduction afterwards against a properly documented invoice."
+  ],
+  "items": [
+   "Do you need to approve this before I travel?",
+   "What document do you need, and in which language?",
+   "What will you pay, and against what proof?",
+   "Does anything change if the work is private rather than state?"
+  ],
+  "after": [
+   "If your insurer needs a plan in a particular form, tell us and we will produce it in that form."
+  ]
+ },
+ "guarantee": {
+  "h2": "If something needs putting right",
+  "h3": "Who is actually obliged",
+  "p": [
+   "The practice that did the work is the one obliged to put it right. A dentist at home is not obliged to repair another practice's work, and many will not. That is where treatment abroad gets expensive, and it is the part the advertising tends to leave out.",
+   "So get the clinic's guarantee in writing: how long it runs, what it covers, and who pays to get you back there if it is needed. If the plan does not say, ask before you agree to anything."
+  ],
+  "items": [
+   "The guarantee in writing, with its term",
+   "What it covers and what it does not",
+   "Who carries the cost of returning, if returning is needed"
+  ],
+  "after": [
+   "We ask the clinic these three for you and attach the answer to the plan."
+  ]
+ },
+ "aftercare": {
+  "h2": "Aftercare at home",
+  "h3": "Where you go afterwards",
+  "p": [
+   "Routine checks and hygiene are done by your own dentist. Tell them beforehand that work abroad is planned and take the plan with you: a practice that knows what was fitted will check it more readily than one that has to x-ray it first.",
+   "Take home every document you are given, even when nothing has gone wrong. You will want them if somebody asks years later which system was used."
+  ],
+  "items": [
+   "The treatment report and the implant passports",
+   "The x-rays from before and after",
+   "The invoice, for your insurer and for your records"
+  ],
+  "after": [
+   "You get all of it digitally before you leave, not just on paper at the clinic."
+  ]
+ },
+ "we": {
+  "h2": "What we do about it",
+  "items": [
+   "The treatment plan in the form your insurer asks for",
+   "The clinic's guarantee, requested in writing",
+   "The documents digitally, before you go and after you return",
+   "Appointments set after any approval you need, never before",
+   "And telling you the trip is not worth it when it is not"
+  ],
+  "h3": "Start with the x-ray",
+  "p": [
+   "Send a recent panoramic x-ray and we will produce the plan your insurer needs to answer. What they then do with it is between you and them, and you will have the document either way."
+  ],
+  "cta": "Send your x-ray",
+  "after": [
+   "We answer in German, Italian, English and Albanian."
+  ]
+ },
+ "form": {
+  "h2": "Contact",
+  "subject": "Enquiry from the Insurance page (English)"
+ }
+}

@@ -266,8 +266,24 @@ const TREATMENTS = {
     ["detail", "plan"],
     ["detail", "trip", { ice: true, side: ["durres-seafront-pavilion-and-apartments"] }],
     ["detail", "quality", { below: ["crown-shade-match-gloved-hand", "implant-model-cross-section-gloved-hands"] }],
-    ["detail", "costs", { ice: true }],
+    ["detail", "costs", { ice: true, also: "insurance" }],
     ["why", "why"],
+    ["form", "form", { sep: true }],
+  ],
+  /* What your health system pays, added 2026-10-25. A treatment page by shape and not a treatment we
+     sell, which is why it is absent from TREATMENT_ROUTE: that constant drives the service cards on the
+     home and services pages, and a card offering "your insurer" would be nonsense. It is reached from
+     the nav section map and from the tourism page instead.
+
+     No photo rows. Every other page here opens with one, and this page is a procedure explained in
+     words: a stock clinic photograph between the Krankenkasse and the guarantee would be decoration
+     exactly where a reader is trying to follow a sequence. */
+  insurance: [
+    ["intro", "intro", { lead: true }],
+    ["detail", "before"],
+    ["detail", "guarantee", { ice: true }],
+    ["detail", "aftercare"],
+    ["why", "we", { ice: true }],
     ["form", "form", { sep: true }],
   ],
 };
@@ -291,6 +307,17 @@ function photoRow(ctx, imgs, shape, extra = "") {
 }
 function paras(ctx, list, firstCls) {
   return (list || []).map((p, i) => `<p${i === 0 && firstCls ? ` class="${firstCls}"` : ""}>${ctx.esc(p)}</p>`).join("\n        ");
+}
+/* A link to another page of ours from inside a section. The label is that page's OWN h1, which
+   ctx.copy already holds for every page in COPY_FILES, so it arrives translated and cannot drift from
+   the page it points at. It is here and not in the copy files because paras() and bullets() escape
+   everything they are given: copy on this site is text and markup belongs to the generator, which is
+   what keeps a translator from having to understand HTML. */
+function also(ctx, route) {
+  if (!route) return "";
+  const target = ctx.copy[route];
+  if (!target || !target.h1) throw new Error(`also: no h1 for route ${route}`);
+  return `<p class="treat__also"><a href="${ctx.route(route)}">${ctx.esc(target.h1)}</a></p>`;
 }
 function bullets(ctx, list, mod = "") {
   return list && list.length ? `<ul class="treat-list${mod}">${list.map((i) => `<li>${ctx.esc(i)}</li>`).join("")}</ul>` : "";
@@ -338,6 +365,7 @@ export function treatment(ctx, key) {
         ${paras(ctx, s.p)}
         ${bullets(ctx, s.items)}
         ${paras(ctx, s.after)}
+        ${also(ctx, o.also)}
     </div>
   </div>${below}
 </section>`;

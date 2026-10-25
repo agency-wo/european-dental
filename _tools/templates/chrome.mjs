@@ -1,7 +1,7 @@
 /* Page shell: head, header, footer, contact links and form parts.
    Nothing visitor-facing is typed here: every
    word comes from i18n/<lang>.json through t() or from the page's copy file. */
-import { graphScript, orgNode, websiteNode, webPageNode } from "../lib/jsonld.mjs";
+import { breadcrumbNode, graphScript, orgNode, serviceNode, websiteNode, webPageNode } from "../lib/jsonld.mjs";
 
 const svg = (body, cls = "icon") => `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${body}</svg>`;
 const stroke = 'fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"';
@@ -142,7 +142,7 @@ function langSwitch(ctx, p, where) {
 
 const NAV = [["home", "nav.home"], ["services", "nav.services"], ["contact", "nav.contact"]];
 /* routes whose pages keep a nav item marked as current */
-const SECTIONS = { services: ["dental", "tourism"] };
+const SECTIONS = { services: ["dental", "tourism", "insurance"] };
 
 function logo(ctx, variant, sizes) {
   const b = ctx.brand.lockup;
@@ -252,6 +252,30 @@ export function layout(ctx, p) {
     websiteNode(site, site.origin, ctx.lang.code),
     webPageNode(site.origin, p.path, p.title, p.description, ctx.lang.code, p.route === "home"),
   ];
+  /* BreadcrumbList, on every page but the home page. lib/jsonld.mjs has carried breadcrumbNode since the
+     first build and nothing ever called it; this is that wiring, not a new node type.
+     The trail comes from SECTIONS, which already knows which pages sit under Services, so the nav and
+     the markup cannot disagree about the hierarchy. The leaf name is the title's own first segment,
+     which is unique per page per language since the titles were split by intent on 2026-10-25.
+     No visible breadcrumbs: Google reads the rich result from this node, and putting a crumb strip on
+     all 24 pages is a design change to a layout the owner is still iterating. */
+  if (p.route !== "home") {
+    const parent = Object.keys(SECTIONS).find((k) => SECTIONS[k].includes(p.route));
+    const trail = [{ name: t("nav.home"), path: ctx.route("home") }];
+    if (parent) trail.push({ name: t(`nav.${parent}`), path: ctx.route(parent) });
+    /* A section root names itself from the nav, not from its own title: the crumb showed
+       "Startseite > Leistungen: Zahnbehandlungen und Zahntourismus", which repeats the word a
+       breadcrumb exists to shorten, and a breadcrumb is rendered in the result page. */
+    const leaf = SECTIONS[p.route] ? t(`nav.${p.route}`) : (p.title || "").split(" | ")[0];
+    trail.push({ name: leaf, path: p.path });
+    nodes.push(breadcrumbNode(site.origin, p.path, trail));
+  }
+  /* A Service node on the two pages that describe something we arrange. Not on the insurance page:
+     explaining what a Krankenkasse requires is not a service offered, and not on services, which is a
+     list of the other two rather than a thing in itself. */
+  if (p.route === "dental" || p.route === "tourism") {
+    nodes.push(serviceNode(site.origin, p.path, (p.title || "").split(" | ")[0], p.description, "Albania"));
+  }
   const scripts = ["/assets/js/main.js", ...(p.scripts || [])];
   return `<!doctype html>
 <html lang="${esc(ctx.lang.code)}">

@@ -15,7 +15,19 @@ export function orgNode(site, origin, description, languages) {
     "@id": `${origin}/#organization`,
     name: site.name,
     url: `${origin}/`,
-    logo: `${origin}/assets/brand/logo-stacked-600.png`,
+    /* An ImageObject rather than a bare URL string: both are valid, and the object is the form that
+       carries the dimensions, which is what lets a consumer decide whether the logo fits a slot
+       without fetching it.
+       600x349 is measured off assets/brand/logo-stacked-600.png, not assumed from the filename: the
+       first attempt here said 450 and was wrong. If the logo is ever re-exported, measure it again. */
+    logo: {
+      "@type": "ImageObject",
+      "@id": `${origin}/#logo`,
+      url: `${origin}/assets/brand/logo-stacked-600.png`,
+      width: 600,
+      height: 349,
+      caption: site.name,
+    },
     description,
     knowsLanguage: languages,
   };
@@ -37,6 +49,23 @@ export function webPageNode(origin, pagePath, title, description, lang, about) {
   };
   if (about) node.about = { "@id": `${origin}/#organization` };
   return node;
+}
+
+/* A Service the agency arranges, for a treatment page. No `offers` and no price: the owner's decision
+   on 2026-10-25 is that no figure is published anywhere, and an Offer without a price says less than
+   no Offer at all. provider points at the Organization, which is the honest relationship: we arrange
+   the service, a clinic performs it. serviceType stays the page's own subject so this never becomes a
+   second place where what we do is described. */
+export function serviceNode(origin, pagePath, name, description, areaServed) {
+  return {
+    "@type": "Service",
+    "@id": `${origin}${pagePath}#service`,
+    name,
+    description,
+    serviceType: name,
+    provider: { "@id": `${origin}/#organization` },
+    areaServed,
+  };
 }
 
 export function breadcrumbNode(origin, pagePath, crumbs) {

@@ -5,6 +5,7 @@
     "services": { "de": "/leistungen/", "it": "/servizi/", "en": "/services/" },
     "dental": { "de": "/zahnbehandlungen/", "it": "/trattamenti-dentali/", "en": "/dental-treatments/" },
     "tourism": { "de": "/zahntourismus/", "it": "/turismo-dentale/", "en": "/dental-tourism/" },
+    "insurance": { "de": "/krankenkasse/", "it": "/detrazioni/", "en": "/insurance/" },
     "contact": { "de": "/kontakt/", "it": "/contatti/", "en": "/contact/" },
     "privacy": { "de": "/datenschutz/", "it": "/privacy/", "en": "/privacy/" },
     "imprint": { "de": "/impressum/", "it": "/note-legali/", "en": "/legal-notice/" },

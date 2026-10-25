@@ -24,6 +24,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
   </url>
+  <url><loc>https://dentaleuropean.com/krankenkasse/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/krankenkasse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/detrazioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/insurance/"/>
+  </url>
   <url><loc>https://dentaleuropean.com/kontakt/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/contatti/"/>
@@ -66,6 +72,12 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
   </url>
+  <url><loc>https://dentaleuropean.com/it/detrazioni/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/krankenkasse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/detrazioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/insurance/"/>
+  </url>
   <url><loc>https://dentaleuropean.com/it/contatti/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/contatti/"/>
@@ -107,6 +119,12 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/turismo-dentale/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/dental-tourism/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/dental-tourism/"/>
+  </url>
+  <url><loc>https://dentaleuropean.com/en/insurance/</loc><lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/krankenkasse/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://dentaleuropean.com/it/detrazioni/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dentaleuropean.com/en/insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dentaleuropean.com/en/insurance/"/>
   </url>
   <url><loc>https://dentaleuropean.com/en/contact/</loc><lastmod>2026-10-25</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://dentaleuropean.com/kontakt/"/>

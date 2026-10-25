@@ -1,0 +1,83 @@
+{
+ "title": "Cure dentali all'estero: cosa si detrae | European Dental",
+ "description": "Cosa puoi detrarre delle cure dentali fatte in Albania, quali documenti servono al 730 e perché viaggio e soggiorno restano fuori.",
+ "h1": "Cure dentali all'estero e la tua dichiarazione",
+ "intro": {
+  "h2": "Nessuna autorizzazione, ma documenti precisi",
+  "p": [
+   "A differenza della Germania, in Italia non devi farti autorizzare niente prima di partire per poter detrarre la spesa. Quello che conta è come è documentata: le spese sanitarie sostenute all'estero seguono lo stesso regime di quelle sostenute in Italia, come chiarisce la circolare 14/2023 dell'Agenzia delle Entrate.",
+   "Questa pagina dice quali documenti servono e quali voci non rientrano. Non è una consulenza fiscale: per il tuo caso senti il tuo commercialista o un CAF."
+  ]
+ },
+ "before": {
+  "h2": "Cosa serve per detrarre",
+  "h3": "La fattura e il pagamento",
+  "p": [
+   "La detrazione è del 19% sulla parte che supera la franchigia di 129,11 euro, come per una spesa fatta in Italia. La documentazione deve permettere di ricavare le stesse indicazioni che si ricavano da una fattura italiana, quindi chi ha fatto la prestazione, a chi, quando e per cosa.",
+   "Il pagamento deve essere tracciabile. Paga con carta o bonifico e conserva la ricevuta insieme alla fattura: il contante, per una spesa sanitaria privata, ti toglie la detrazione."
+  ],
+  "items": [
+   "La fattura della clinica, con prestazione e data",
+   "Il tuo codice fiscale sulla fattura, non un numero di documento",
+   "Un pagamento tracciabile, carta o bonifico, mai contante",
+   "Il piano di cura, che spiega a cosa si riferisce la fattura"
+  ],
+  "after": [
+   "Alcune fonti chiedono anche una traduzione in italiano della fattura. Non è confermato dalle fonti ufficiali che abbiamo letto, ma te la prepariamo comunque, così il dubbio non è un problema tuo."
+  ]
+ },
+ "guarantee": {
+  "h2": "Terapeutico, non estetico",
+  "h3": "La distinzione che decide",
+  "p": [
+   "La spesa si detrae a condizione che il trattamento abbia finalità terapeutica e non estetica. È la distinzione che decide più di ogni altra su questa pagina, e passa in mezzo all'odontoiatria: un impianto che ti restituisce la masticazione è una cosa, uno sbiancamento è un'altra.",
+   "Per questo il piano di cura descrive la funzione e non solo il risultato estetico. Non è una formula per far passare una spesa: è come si scrive un piano onesto, e serve anche a te per capire cosa stai comprando."
+  ],
+  "items": [
+   "Impianti, corone e otturazioni: funzione, di norma detraibili",
+   "Interventi puramente estetici: fuori",
+   "Viaggio e soggiorno: fuori, anche se il motivo è di salute"
+  ],
+  "after": [
+   "L'ultima voce sorprende quasi tutti, quindi la diciamo prima e non dopo."
+  ]
+ },
+ "aftercare": {
+  "h2": "I controlli a casa",
+  "h3": "Dove vai dopo",
+  "p": [
+   "I controlli ordinari e l'igiene li fa il tuo dentista in Italia. Avvisalo prima che hai in programma un lavoro all'estero e portagli il piano: uno studio che sa cosa è stato montato lo controlla più volentieri di uno che deve prima rifare una lastra.",
+   "La garanzia la deve lo studio che ha eseguito il lavoro. Un dentista italiano non è tenuto a rifare il lavoro di un altro, quindi fatti scrivere cosa copre la clinica e per quanto tempo."
+  ],
+  "items": [
+   "La relazione del trattamento e i passaporti implantari",
+   "Le radiografie prima e dopo",
+   "La garanzia della clinica, scritta e con la durata"
+  ],
+  "after": [
+   "Ti diamo tutto in digitale prima che tu riparta, non solo su carta in clinica."
+  ]
+ },
+ "we": {
+  "h2": "Cosa facciamo noi",
+  "items": [
+   "Il piano di cura, scritto in modo che si capisca la funzione",
+   "La fattura intestata correttamente e la traduzione in italiano",
+   "La garanzia della clinica, chiesta per iscritto",
+   "I documenti in digitale, prima di partire e al rientro",
+   "E l'avviso che il viaggio non conviene, quando non conviene"
+  ],
+  "h3": "Parti dalla radiografia",
+  "p": [
+   "Con una panoramica recente prepariamo il piano. Poi la parte fiscale la valuti tu con il tuo commercialista, con il piano già in mano."
+  ],
+  "cta": "Invia la tua radiografia",
+  "after": [
+   "Rispondiamo in italiano, tedesco, inglese e albanese."
+  ]
+ },
+ "form": {
+  "h2": "Contatti",
+  "subject": "Richiesta dalla pagina Detrazioni (Italiano)"
+ }
+}

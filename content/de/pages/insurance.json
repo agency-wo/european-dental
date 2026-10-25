@@ -1,0 +1,83 @@
+{
+ "title": "Zahnersatz im Ausland: Was die Kasse zahlt | European Dental",
+ "description": "Was Ihre Krankenkasse bei einer Zahnbehandlung in Albanien zahlt, warum der Heil- und Kostenplan vor der Abreise genehmigt sein muss, und wer nachbessert.",
+ "h1": "Zahnersatz im Ausland und Ihre Krankenkasse",
+ "intro": {
+  "h2": "Die Genehmigung kommt vor der Reise",
+  "p": [
+   "Das Wichtigste zuerst, weil es sich später nicht nachholen lässt: Ihre Kasse muss die Behandlung genehmigt haben, bevor Sie fahren. Wer ohne Genehmigung behandelt wird, kann auf den vollen Kosten sitzen bleiben, auch wenn dieselbe Behandlung in Deutschland bezuschusst worden wäre.",
+   "Diese Seite erklärt den Weg und sagt, welchen Teil davon wir übernehmen."
+  ]
+ },
+ "before": {
+  "h2": "Vor der Abreise",
+  "h3": "Der Heil- und Kostenplan",
+  "p": [
+   "Der Heil- und Kostenplan, kurz HKP, ist das Dokument, auf das Ihre Kasse schaut. Er beschreibt den Befund, die geplante Versorgung und was sie kostet. Die Techniker Krankenkasse verlangt ihn ausdrücklich in deutscher Sprache und vor Beginn der Behandlung eingereicht; andere Kassen handhaben es ähnlich, fragen Sie Ihre eigene.",
+   "Wir erstellen den Plan der Klinik in Durrës auf Deutsch, in der Form, die Ihre Kasse lesen kann, und schicken ihn Ihnen, damit Sie ihn einreichen."
+  ],
+  "items": [
+   "Ein HKP auf Deutsch, mit Befund, geplanter Versorgung und Kosten",
+   "Eingereicht bei Ihrer Kasse, bevor irgendetwas gebucht wird",
+   "Die Bewilligung schriftlich, bevor Sie fliegen",
+   "Ein Termin, der erst danach feststeht"
+  ],
+  "after": [
+   "Fragen Sie Ihre Kasse auch nach dem Bonusheft: ein lückenlos geführtes Heft erhöht den Festzuschuss, und daran ändert eine Behandlung im Ausland nichts."
+  ]
+ },
+ "guarantee": {
+  "h2": "Wenn etwas nachgebessert werden muss",
+  "h3": "Wer in der Pflicht ist",
+  "p": [
+   "Zur kostenlosen Nachbesserung verpflichtet ist die Praxis, die behandelt hat. Eine deutsche Praxis muss fremde Arbeit nicht nachbessern, und viele tun es auch nicht. Das ist der Punkt, an dem eine Auslandsbehandlung teuer werden kann, und er wird in der Werbung für Zahntourismus selten genannt.",
+   "Lassen Sie sich deshalb schriftlich geben, worauf die Klinik eine Gewährleistung gibt, wie lange sie läuft und was sie einschließt. Steht es nicht im Plan, fragen Sie danach, bevor Sie zusagen."
+  ],
+  "items": [
+   "Die Gewährleistung der Klinik, schriftlich und mit Laufzeit",
+   "Was sie abdeckt und was nicht",
+   "Wer die Rückreise trägt, falls eine nötig wird"
+  ],
+  "after": [
+   "Wir fragen diese drei Punkte für Sie ab und legen die Antwort dem Plan bei."
+  ]
+ },
+ "aftercare": {
+  "h2": "Die Nachsorge zu Hause",
+  "h3": "Wo Sie danach hingehen",
+  "p": [
+   "Die gewöhnliche Nachsorge, Kontrolle und professionelle Reinigung, macht Ihre Praxis zu Hause. Sagen Sie ihr vorher Bescheid, dass eine Versorgung im Ausland geplant ist, und nehmen Sie den Plan mit: eine Praxis, die weiß, was eingesetzt wurde, kontrolliert es bereitwilliger als eine, die es erst röntgen muss.",
+   "Nehmen Sie jede Unterlage mit nach Hause, die Sie bekommen, auch wenn nichts fehlt. Sie brauchen sie, falls Jahre später jemand fragt, welches System verbaut wurde."
+  ],
+  "items": [
+   "Den Behandlungsbericht und die Implantatpässe",
+   "Die Röntgenbilder vor und nach der Behandlung",
+   "Die Rechnung, für die Kasse und für die Unterlagen"
+  ],
+  "after": [
+   "Alles davon geben wir Ihnen digital mit, nicht nur auf Papier in der Klinik."
+  ]
+ },
+ "we": {
+  "h2": "Was wir dabei übernehmen",
+  "items": [
+   "Den Heil- und Kostenplan auf Deutsch, in einreichfähiger Form",
+   "Die Gewährleistung der Klinik, schriftlich abgefragt",
+   "Die Unterlagen digital, bevor Sie abreisen und nachdem Sie zurück sind",
+   "Die Terminplanung erst nach der Bewilligung, nicht vorher",
+   "Und die Auskunft, dass sich die Reise nicht lohnt, wenn sie sich nicht lohnt"
+  ],
+  "h3": "Beginnen Sie mit dem Röntgenbild",
+  "p": [
+   "Mit einem aktuellen Panorama-Röntgenbild können wir den Plan erstellen, den Ihre Kasse sehen will. Ohne Genehmigung rät Ihnen niemand hier zu einer Buchung."
+  ],
+  "cta": "Röntgenbild senden",
+  "after": [
+   "Wir antworten auf Deutsch, Italienisch, Englisch und Albanisch."
+  ]
+ },
+ "form": {
+  "h2": "Kontakt",
+  "subject": "Anfrage von der Seite Krankenkasse (Deutsch)"
+ }
+}
